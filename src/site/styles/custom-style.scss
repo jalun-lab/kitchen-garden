@@ -172,47 +172,49 @@ td {
     box-shadow: none !important; /* Removes the floating shadow for a flat look */
 }
 
-/* COMPLETE SIDEBAR REMOVAL & GRID RESET */
+/* ALIGNMENT RECOVERY */
 
-/* 1. Reset the main layout wrapper to stop reserving sidebar space */
+/* 1. Reset the parent containers but keep the centering logic */
 .dg-stack {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centering anchor */
     width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
+}
+
+/* 2. Remove the 'Shift' - Target the container that usually holds the padding */
+.dg-main-content, 
+.dg-content-container {
+    margin: 0 auto !important;
+    padding-left: 0 !important; /* Forces removal of sidebar 'ghost' space */
+    padding-right: 0 !important;
+    width: 100% !important;
+    max-width: 850px !important;
+}
+
+/* 3. The Header & Content Alignment Anchor */
+/* We will use 20px padding on both so the text doesn't touch the screen edge */
+.grimgrains-header,
+.dg-content {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+}
+
+/* 4. Fix the Menu Spacing */
+.grimgrains-nav {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start; /* Keeps it left-aligned within the 850px */
+    gap: 25px;
     padding: 0 !important;
 }
 
-/* 2. Target the specific content column and strip its grid/flex properties */
-.dg-main-content, 
-.dg-content-container,
-.header-wrapper {
-    display: block !important;
-    float: none !important;
-    width: 100% !important;
-    max-width: 850px !important; /* The Grimgrains standard */
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-/* 3. Hard-delete all sidebar and navigation UI elements */
-.sidebar-left, 
-.sidebar-right, 
-.dg-sidebar, 
-.dg-nav, 
-.dg-nav-container,
-.search-button,
-.breadcrumb {
-    display: none !important;
-    visibility: hidden !important;
-    width: 0 !important;
-    height: 0 !important;
-}
-
-/* 4. Match the internal padding for perfect text alignment */
-.grimgrains-header,
-.dg-content-container {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
-    box-sizing: border-box !important;
+/* 5. Ensure the 2px line is exactly the width of the content */
+.grimgrains-nav {
+    width: 100%;
 }
