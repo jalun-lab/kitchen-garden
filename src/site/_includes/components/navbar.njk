@@ -1,32 +1,18 @@
-/* {%if settings.dgHomeLink === true%}
-    <nav class="navbar">
-        <div class="navbar-inner">
-            <a href="/" style="text-decoration: none;">
-                {% if meta.siteLogoPath %}
-                    <img class="site-logo" src="{{meta.siteLogoPath}}" alt="{{meta.siteName}}">
-                {% else %}
-                    <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
-                {% endif %}
-            </a>
-        </div>
-        {% if settings.dgEnableSearch === true%}
-            {% include "components/searchButton.njk" %}
-        {%endif%}
-    </nav>
-    {%else%}
-    <div class="empty-navbar" >
-        {% if settings.dgEnableSearch === true%}
-            {% include "components/searchButton.njk" %}
-        {%endif%}
-    </div>
-{%endif%} */
-
-<nav class="grimgrains-top-nav">
-  <div class="nav-links">
-    <a href="/">HOME</a>
-    <a href="/about">ABOUT</a>
-    <a href="/equipment">EQUIPMENT</a>
-    <a href="/nutrition">NUTRITION</a>
-    <a href="/sprouting">SPROUTING</a>
+<header class="grimgrains-header">
+  <div class="logo-container">
+    <a href="/" class="site-logo">
+      <div class="placeholder-logo">ARCHIVE_LOG</div>
+    </a>
   </div>
-</nav>
+
+  <nav class="grimgrains-nav">
+    <div class="nav-links">
+      <a href="/" class="nav-item">Home</a>
+      <a href="/about" class="nav-item">About</a>
+      <a href="/equipment" class="nav-item">Equipment</a>
+      <a href="/nutrition" class="nav-item">Nutrition</a>
+      <a href="/sprouting" class="nav-item">Sprouting</a>
+      <a href="/fermenting" class="nav-item">Fermenting</a>
+    </div>
+  </nav>
+</header>
