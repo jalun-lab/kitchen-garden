@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/blueberry-and-brandy-clafoutis/","tags":["baked","dessert"]}
 ---
 
+![Pasted image 20260208010508.png](/img/user/Pasted%20image%2020260208010508.png)
 
 * **Comments**: First one had way too many blueberries in but was still pretty sensational. Dropped from 600g to 450g. I still want to cram those suckers in there, but a slightly higher batter to berry ratio might be nice.
 * **Serving Notes**: Serve from the pan dusted with icing sugar and whipped cream.

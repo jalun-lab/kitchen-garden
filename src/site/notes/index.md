@@ -13,24 +13,31 @@
     <div class="category-title">Sometimes Food</div>
   </a>
 </div>
-# THE RECIPE ARCHIVE
 
-## BY MAIN COMPONENT
-* **Chicken:**  recipes
-* **Beef:**  recipes
-* **Dairy/Dessert:**  recipes
+<div class="recipe-grid">
 
----
+<div class="grid-column">
+### MAINS
+`dataview
+LIST FROM "" 
+WHERE course = "main" AND dg-publish = true
+`
+</div>
 
-## RECENT ADDITIONS
+<div class="grid-column">
+### SIDES & SNACKS
+`dataview
+LIST FROM "" 
+WHERE (course = "side" OR course = "snack") AND dg-publish = true
+`
+</div>
 
-```dataview
-TABLE WITHOUT ID
-  file.link as "RECIPE",
-  protein as "PROT.",
-  calories as "KCAL",
-  main_equipment as "EQUIPMENT"
-FROM "Recipes"
-WHERE dg-publish = true
-SORT file.ctime DESC
-LIMIT 10
+<div class="grid-column">
+### DESSERTS
+`dataview
+LIST FROM "" 
+WHERE course = "dessert" AND dg-publish = true
+`
+</div>
+
+</div>
