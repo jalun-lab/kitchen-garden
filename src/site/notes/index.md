@@ -17,7 +17,6 @@
 <div class="modernist-recipe-grid">
 
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
-- [[_Archive/Blueberry & Brandy Clafoutis - v2 - 2026-02-08-0117\|Blueberry & Brandy Clafoutis - v2 - 2026-02-08-0117]]
 
 { .block-language-dataview}
 
