@@ -1,315 +1,315 @@
-// :root {
-//     --bg: #ffffff !important;
-//     --text: #000000 !important;
-//     --accent: #72dec2 !important;
-//     --font-family: monospace !important;
-//     --border-thick: 3px solid #000000 !important;
-//     --border-thin: 1px solid #000000 !important;
-//     --body-background: #ffffff !important;
-//     --text-normal: #000000 !important;
-//     --interactive-accent: #72dec2 !important;
-//     --background-secondary: #ffffff !important;
-// }
+:root {
+    --bg: #ffffff !important;
+    --text: #000000 !important;
+    --accent: #72dec2 !important;
+    --font-family: monospace !important;
+    --border-thick: 3px solid #000000 !important;
+    --border-thin: 1px solid #000000 !important;
+    --body-background: #ffffff !important;
+    --text-normal: #000000 !important;
+    --interactive-accent: #72dec2 !important;
+    --background-secondary: #ffffff !important;
+}
 
-// * {
-//     border-radius: 0px !important;
-//     box-sizing: border-box !important;
-// }
+* {
+    border-radius: 0px !important;
+    box-sizing: border-box !important;
+}
 
-// html, body, .dg-stack, .dg-main-content {
-//     background-color: #ffffff !important;
-//     background-image: none !important;
-//     color: #000000 !important;
-//     font-family: var(--font-family) !important;
-// }
+html, body, .dg-stack, .dg-main-content {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #000000 !important;
+    font-family: var(--font-family) !important;
+}
 
-// header, nav, .dg-nav, .nav-container {
-//     background-color: #ffffff !important;
-//     background-image: none !important;
-//     border-bottom: var(--border-thick) !important;
-//     box-shadow: none !important;
-//     padding: 10px 0 !important;
-// }
+header, nav, .dg-nav, .nav-container {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-bottom: var(--border-thick) !important;
+    box-shadow: none !important;
+    padding: 10px 0 !important;
+}
 
-// .dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
-//     color: #000000 !important;
-//     font-weight: 800 !important;
-//     text-transform: uppercase !important;
-//     text-decoration: none !important;
-// }
+.dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
+    color: #000000 !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+}
 
-// .dg-nav a:hover, .nav-active {
-//     background-color: #72dec2 !important;
-// }
+.dg-nav a:hover, .nav-active {
+    background-color: #72dec2 !important;
+}
 
-// .dg-content-container {
-//     max-width: 850px !important;
-//     margin: 40px auto !important;
-//     border: var(--border-thick) !important;
-//     box-shadow: 12px 12px 0px #000000 !important;
-//     padding: 40px !important;
-//     background-color: #ffffff !important;
-// }
+.dg-content-container {
+    max-width: 850px !important;
+    margin: 40px auto !important;
+    border: var(--border-thick) !important;
+    box-shadow: 12px 12px 0px #000000 !important;
+    padding: 40px !important;
+    background-color: #ffffff !important;
+}
 
-// body, p, td, li, .dg-content {
-//     font-size: 14px !important;
-//     line-height: 1.6 !important;
-// }
+body, p, td, li, .dg-content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
 
-// h1, h2, h3, h4, b, strong, th {
-//     font-weight: 800 !important;
-//     text-transform: uppercase !important;
-//     color: #000000 !important;
-// }
+h1, h2, h3, h4, b, strong, th {
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
 
-// h1, h2, h3 {
-//     border-bottom: var(--border-thick) !important;
-//     padding-bottom: 5px !important;
-//     margin-top: 1.5em !important;
-// }
+h1, h2, h3 {
+    border-bottom: var(--border-thick) !important;
+    padding-bottom: 5px !important;
+    margin-top: 1.5em !important;
+}
 
-// a {
-//     font-weight: 800 !important;
-//     color: #000000 !important;
-//     text-decoration: underline !important;
-// }
+a {
+    font-weight: 800 !important;
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
 
-// table {
-//     border-collapse: collapse !important;
-//     border: var(--border-thick) !important;
-//     width: 100% !important;
-//     margin: 20px 0 !important;
-// }
+table {
+    border-collapse: collapse !important;
+    border: var(--border-thick) !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+}
 
-// th {
-//     background-color: #000000 !important;
-//     color: #ffffff !important;
-//     padding: 10px !important;
-//     border: var(--border-thin) !important;
-// }
+th {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+    border: var(--border-thin) !important;
+}
 
-// td {
-//     border: var(--border-thin) !important;
-//     padding: 12px !important;
-//     vertical-align: top !important;
-// }
+td {
+    border: var(--border-thin) !important;
+    padding: 12px !important;
+    vertical-align: top !important;
+}
 
-// .search-container input, .search-view {
-//     border: var(--border-thin) !important;
-//     background: #ffffff !important;
-//     color: #000000 !important;
-// }
+.search-container input, .search-view {
+    border: var(--border-thin) !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+}
 
-// /* 1. Nuke the template's default UI */
-// .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
-//     display: none !important;
-// }
+/* 1. Nuke the template's default UI */
+.dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
+    display: none !important;
+}
 
-// /* 2. Align Header Wrapper with Content */
-// .header-wrapper {
-//     width: 100%;
-//     display: flex;
-//     justify-content: center; /* Centers the whole unit */
-//     background-color: #fff;
-// }
+/* 2. Align Header Wrapper with Content */
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the whole unit */
+    background-color: #fff;
+}
 
-// .grimgrains-header {
-//     width: 100%;
-//     max-width: 850px; /* Exact match to your content container */
-//     padding: 40px 40px 0 40px; /* Match internal content padding */
-//     box-sizing: border-box;
-// }
+.grimgrains-header {
+    width: 100%;
+    max-width: 850px; /* Exact match to your content container */
+    padding: 40px 40px 0 40px; /* Match internal content padding */
+    box-sizing: border-box;
+}
 
-// /* 3. Logo Placeholder */
-// .logo-container {
-//     margin-bottom: 25px;
-//     text-align: left;
-// }
+/* 3. Logo Placeholder */
+.logo-container {
+    margin-bottom: 25px;
+    text-align: left;
+}
 
-// .placeholder-logo {
-//     display: inline-block;
-//     border: 3px solid #000;
-//     padding: 8px 18px;
-//     font-weight: 800;
-//     font-family: 'JetBrains Mono', monospace;
-//     letter-spacing: 2px;
-//     color: #000;
-// }
+.placeholder-logo {
+    display: inline-block;
+    border: 3px solid #000;
+    padding: 8px 18px;
+    font-weight: 800;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
+    color: #000;
+}
 
-// /* 4. The Grimgrains Menu Lines */
-// .grimgrains-nav {
-//     border-bottom: 2px solid #000; /* Horizontal 2px line */
-//     padding-bottom: 0;
-//     margin-bottom: 20px;
-// }
+/* 4. The Grimgrains Menu Lines */
+.grimgrains-nav {
+    border-bottom: 2px solid #000; /* Horizontal 2px line */
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
 
-// .nav-links {
-//     display: flex;
-//     gap: 30px;
-// }
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
 
-// .nav-item {
-//     text-decoration: none !important;
-//     color: #000 !important;
-//     font-weight: 800 !important;
-//     font-size: 0.9rem;
-//     padding-bottom: 10px; /* Space between text and the 2px line */
-//     position: relative;
-//     top: 2px; /* Shifts item down to sit exactly on the line */
-// }
+.nav-item {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: 800 !important;
+    font-size: 0.9rem;
+    padding-bottom: 10px; /* Space between text and the 2px line */
+    position: relative;
+    top: 2px; /* Shifts item down to sit exactly on the line */
+}
 
-// /* 5. Active Item 5px Line */
-// /* This highlights the item when hovered or when given the .active class */
-// .nav-item:hover, .nav-item.active {
-//     border-bottom: 5px solid #000;
-// }
+/* 5. Active Item 5px Line */
+/* This highlights the item when hovered or when given the .active class */
+.nav-item:hover, .nav-item.active {
+    border-bottom: 5px solid #000;
+}
 
-// /* 6. Content Container Fix */
-// .dg-content-container {
-//     max-width: 850px !important;
-//     margin: 0 auto !important; /* Removes the top margin so it joins the header */
-//     padding-top: 20px !important;
-//     box-shadow: none !important; /* Removes the floating shadow for a flat look */
-// }
+/* 6. Content Container Fix */
+.dg-content-container {
+    max-width: 850px !important;
+    margin: 0 auto !important; /* Removes the top margin so it joins the header */
+    padding-top: 20px !important;
+    box-shadow: none !important; /* Removes the floating shadow for a flat look */
+}
 
-// /* Optional Debugger: Uncomment the line below if it's still shifted */
-// /* * { outline: 1px solid red !important; } */
+/* Optional Debugger: Uncomment the line below if it's still shifted */
+/* * { outline: 1px solid red !important; } */
 
-// /* HOMEPAGE CATEGORIES GRID */
-// .homepage-categories {
-//     display: flex !important;
-//     justify-content: space-between;
-//     gap: 40px;
-//     margin: 40px 0;
-//     width: 100%;
-// }
+/* HOMEPAGE CATEGORIES GRID */
+.homepage-categories {
+    display: flex !important;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px 0;
+    width: 100%;
+}
 
-// .category-item {
-//     flex: 1;
-//     text-align: center;
-//     text-decoration: none !important;
-//     color: #000 !important;
-//     border: 3px solid #000; /* Matching your logo border */
-//     padding: 30px 20px;
-//     transition: background-color 0.2s;
-// }
+.category-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none !important;
+    color: #000 !important;
+    border: 3px solid #000; /* Matching your logo border */
+    padding: 30px 20px;
+    transition: background-color 0.2s;
+}
 
-// .category-item:hover {
-//     background-color: #72dec2; /* Your mint accent */
-// }
+.category-item:hover {
+    background-color: #72dec2; /* Your mint accent */
+}
 
-// .category-item img {
-//     height: 100px !important;
-//     width: auto !important;
-//     margin-bottom: 20px;
-//     filter: grayscale(100%); /* Grimgrains often uses monochrome icons */
-// }
+.category-item img {
+    height: 100px !important;
+    width: auto !important;
+    margin-bottom: 20px;
+    filter: grayscale(100%); /* Grimgrains often uses monochrome icons */
+}
 
-// .category-item:hover img {
-//     filter: grayscale(0%); /* Brings color back on hover */
-// }
+.category-item:hover img {
+    filter: grayscale(0%); /* Brings color back on hover */
+}
 
-// .category-title {
-//     font-weight: 800;
-//     text-transform: uppercase;
-//     letter-spacing: 1px;
-//     font-size: 0.9rem;
-// }
+.category-title {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
 
-// /* FINAL HIGH-CONTRAST BLACKOUT */
-// :root {
-//     --text-normal: #000000 !important;
-//     --text-muted: #000000 !important;
-//     --text-faint: #000000 !important;
-//     --text-accent: #000000 !important;
-// }
+/* FINAL HIGH-CONTRAST BLACKOUT */
+:root {
+    --text-normal: #000000 !important;
+    --text-muted: #000000 !important;
+    --text-faint: #000000 !important;
+    --text-accent: #000000 !important;
+}
 
-// /* Force every possible text element to pure black */
-// body, p, span, div, li, td, th, h1, h2, h3, h4, a, blockquote {
-//     color: #000000 !important;
-//     -webkit-font-smoothing: antialiased; /* Makes the JetBrains Mono crisp */
-//     -moz-osx-font-smoothing: grayscale;
-// }
+/* Force every possible text element to pure black */
+body, p, span, div, li, td, th, h1, h2, h3, h4, a, blockquote {
+    color: #000000 !important;
+    -webkit-font-smoothing: antialiased; /* Makes the JetBrains Mono crisp */
+    -moz-osx-font-smoothing: grayscale;
+}
 
-// /* Ensure bold elements are truly heavy */
-// b, strong {
-//     font-weight: 800 !important;
-//     color: #000000 !important;
-// }
+/* Ensure bold elements are truly heavy */
+b, strong {
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
 
-// /* Fix for links that might be inheriting a blue or gray */
-// a {
-//     color: #000000 !important;
-// }
+/* Fix for links that might be inheriting a blue or gray */
+a {
+    color: #000000 !important;
+}
 
-// /* FORCE THREE COLUMN LIST */
-// .modernist-recipe-grid ul {
-//     column-count: 3 !important;
-//     column-gap: 40px !important;
-//     column-rule: 1px solid #eee; /* Optional subtle divider */
-//     list-style: none !important;
-//     padding: 0 !important;
-//     margin: 40px 0 !important;
-// }
+/* FORCE THREE COLUMN LIST */
+.modernist-recipe-grid ul {
+    column-count: 3 !important;
+    column-gap: 40px !important;
+    column-rule: 1px solid #eee; /* Optional subtle divider */
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 40px 0 !important;
+}
 
-// .modernist-recipe-grid li {
-//     break-inside: avoid; /* Prevents a link from splitting across columns */
-//     margin-bottom: 12px !important;
-//     font-size: 0.9rem !important;
-//     text-transform: uppercase;
-//     font-weight: 800;
-// }
+.modernist-recipe-grid li {
+    break-inside: avoid; /* Prevents a link from splitting across columns */
+    margin-bottom: 12px !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
 
-// .modernist-recipe-grid li a {
-//     color: #000 !important;
-//     text-decoration: none !important;
-// }
+.modernist-recipe-grid li a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
 
-// .modernist-recipe-grid li a:hover {
-//     background-color: #72dec2 !important;
-// }
+.modernist-recipe-grid li a:hover {
+    background-color: #72dec2 !important;
+}
 
-// /* Fix for the Dataview list headers if they appear */
-// .modernist-recipe-grid .dataview.list-view-header {
-//     display: none !important;
-// }
+/* Fix for the Dataview list headers if they appear */
+.modernist-recipe-grid .dataview.list-view-header {
+    display: none !important;
+}
 
-// /* CLAMP CONTENT TO 850px */
-// .modernist-recipe-grid {
-//     max-width: 850px !important;
-//     margin: 40px auto !important;
-//     padding: 0 40px !important; /* Matches your header padding */
-//     box-sizing: border-box !important;
-// }
+/* CLAMP CONTENT TO 850px */
+.modernist-recipe-grid {
+    max-width: 850px !important;
+    margin: 40px auto !important;
+    padding: 0 40px !important; /* Matches your header padding */
+    box-sizing: border-box !important;
+}
 
-// /* THE THREE COLUMN LIST */
-// .modernist-recipe-grid ul {
-//     column-count: 3 !important;
-//     column-gap: 40px !important;
-//     list-style: none !important;
-//     padding: 0 !important;
-//     margin: 0 !important;
-//     width: 100% !important;
-// }
+/* THE THREE COLUMN LIST */
+.modernist-recipe-grid ul {
+    column-count: 3 !important;
+    column-gap: 40px !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
 
-// .modernist-recipe-grid li {
-//     break-inside: avoid;
-//     margin-bottom: 10px !important;
-//     font-size: 0.85rem !important;
-//     border-bottom: 1px solid #eee; /* Light divider for readability */
-//     padding-bottom: 5px;
-// }
+.modernist-recipe-grid li {
+    break-inside: avoid;
+    margin-bottom: 10px !important;
+    font-size: 0.85rem !important;
+    border-bottom: 1px solid #eee; /* Light divider for readability */
+    padding-bottom: 5px;
+}
 
-// .modernist-recipe-grid li a {
-//     color: #000 !important;
-//     font-weight: 800 !important;
-//     text-transform: uppercase;
-//     text-decoration: none !important;
-// }
+.modernist-recipe-grid li a {
+    color: #000 !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
 
-// /* MOBILE FIX */
-// @media (max-width: 700px) {
-//     .modernist-recipe-grid ul {
-//         column-count: 1 !important;
-//     }
-// }
+/* MOBILE FIX */
+@media (max-width: 700px) {
+    .modernist-recipe-grid ul {
+        column-count: 1 !important;
+    }
+}
