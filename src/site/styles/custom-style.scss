@@ -99,3 +99,31 @@ td {
     background: #ffffff !important;
     color: #000000 !important;
 }
+
+/* FORCE GRIMGRAINS NAVBAR */
+.grimgrains-top-nav {
+    width: 100% !important;
+    background-color: #ffffff !important;
+    border-bottom: 3px solid #000000 !important;
+    padding: 20px 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    position: relative !important;
+}
+
+.nav-links {
+    display: flex !important;
+    gap: 30px !important;
+}
+
+.nav-links a {
+    color: #000000 !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+    font-size: 0.9rem !important;
+}
+
+/* Kill the template's default search and sidebar buttons */
+.search-button, .sidebar-left, .dg-nav-icon {
+    display: none !important;
+}
