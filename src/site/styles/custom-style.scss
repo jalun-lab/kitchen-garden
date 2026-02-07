@@ -106,9 +106,8 @@
     font-size: 0.9rem;
 }
 
-/* 4. MODERNIST RECIPE LIST (ROWS) - OVERFLOW FIX */
+/* 4. MODERNIST RECIPE LIST (ROWS) - FINAL WRAP FIX */
 .modernist-recipe-grid {
-    display: block !important;
     max-width: 700px !important;
     margin: 2rem auto !important;
     border-top: 3px solid black;
@@ -119,37 +118,37 @@
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    display: block !important; /* Forces vertical stacking */
 }
 
 .modernist-recipe-grid li {
-    display: block !important;
+    display: flex !important;
     width: 100% !important;
+    border-bottom: 3px solid black; /* Move border to LI for stability */
+    padding: 0 !important;
     margin: 0 !important;
 }
 
-.modernist-recipe-grid a.internal-link {
-    /* The fundamental wrapping fix */
-    display: block !important; 
+.modernist-recipe-grid li a.internal-link {
+    /* Critical Wrapping Logic */
+    display: block !important;
+    flex: 1 !important;
     width: 100% !important;
     white-space: normal !important; 
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     
-    /* Layout & Style */
-    padding: 18px 10px !important;
-    border-bottom: 3px solid black;
+    /* Aesthetics */
+    padding: 18px 15px !important;
     text-decoration: none !important;
     color: black !important;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.3 !important;
-    box-sizing: border-box !important;
+    line-height: 1.4 !important;
     transition: background-color 0.1s ease;
 }
 
-.modernist-recipe-grid a.internal-link:hover {
+.modernist-recipe-grid li a.internal-link:hover {
     background-color: black !important;
     color: white !important;
 }
