@@ -1,160 +1,114 @@
-/* GRIMGRAINS RESET - SCORCHED EARTH */
-
-/* 1. Neutralize Template Defaults */
-:root {
-    --bg: #ffffff !important;
-    --body-background: #ffffff !important;
-    --outline: #000000 !important;
-    --text-normal: #000000 !important;
-    --text-muted: #444444 !important;
-    --interactive-accent: #72dec2 !important; /* Grimgrains Mint */
-}
-
-/* 2. Force Background & Text */
-html, body, .dg-stack {
-    background-color: white !important;
-    color: black !important;
-    background-image: none !important; /* Removes any default gradients */
-}
-
-/* 3. The Brutalist Border Box */
-.dg-content-container {
-    border: 3px solid black !important;
-    box-shadow: 8px 8px 0px black !important;
-    border-radius: 0px !important;
-    padding: 2rem !important;
-    margin-top: 2rem !important;
-}
-
-/* 4. Headings - Clean & Bold */
-/* GRIMGRAINS TYPOGRAPHY UPGRADE */
-
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
 
-:root {
-    /* JetBrains Mono is the closest free 'Modernist' alternative to Iosevka */
-    --font-family: 'JetBrains Mono', monospace !important;
-}
-
-body, p, td, li, .dg-content {
-    font-family: var(--font-family) !important;
-    font-weight: 500 !important; /* Not too thin, not too chunky */
-    font-size: 14px !important;
-    color: #000000 !important;
-    line-height: 1.5 !important;
-}
-
-/* Bold for emphasis and headers */
-h1, h2, h3, b, strong, th {
-    font-family: var(--font-family) !important;
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-}
-
-/* 5. Modernist Table Styling */
-table {
-    border-collapse: collapse !important;
-    border: 3px solid black !important;
-    width: 100% !important;
-}
-
-th, td {
-    border: 1px solid black !important;
-    padding: 12px !important;
-    border-radius: 0px !important;
-}
-
-th {
-    background-color: black !important;
-    color: white !important;
-}
-
-/* 6. Remove rounded corners from everything */
-* {
-    border-radius: 0px !important;
-}
-
-/* GRIMGRAINS FONT OVERRIDE */
-
-body, p, td, li {
-    font-family: "Courier New", Courier, monospace !important;
-    font-weight: 700 !important; /* Forces bold "ink" weight */
-    color: #000000 !important;   /* Solid black, no gray */
-    -webkit-font-smoothing: none !important; /* Prevents font from looking thin on Macs/iOS */
-    -moz-osx-font-smoothing: grayscale;
-    font-variant-ligatures: none;
-}
-
-/* Ensure headings are even chunkier */
-h1, h2, h3 {
-    font-weight: 900 !important;
-    color: #000000 !important;
-}
-
-/* Make links pop with the mint accent background on hover */
-a {
-    font-weight: 800 !important;
-    color: #000000 !important;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
-/* GRIMGRAINS EXACT SPEC */
-
+/* 1. VARIABLES & CORE RESET */
 :root {
     --bg: #ffffff !important;
     --text: #000000 !important;
-    --accent: #72dec2 !important; /* The Mint */
+    --accent: #72dec2 !important;
+    --font-family: 'JetBrains Mono', monospace !important;
     --border-thick: 3px solid #000;
     --border-thin: 1px solid #000;
+    
+    /* Template Override Variables */
+    --body-background: #ffffff !important;
+    --text-normal: #000000 !important;
+    --interactive-accent: #72dec2 !important;
+    --background-secondary: #ffffff !important;
 }
 
-/* 1. Global Box Model - No soft corners */
 * {
     border-radius: 0px !important;
+    box-sizing: border-box;
 }
 
-/* 2. The Main Container - Force a narrower, book-like feel */
+html, body, .dg-stack, .dg-main-content {
+    background-color: #fff !important;
+    background-image: none !important;
+    color: #000 !important;
+    font-family: var(--font-family) !important;
+    -webkit-font-smoothing: none !important;
+    font-variant-ligatures: none;
+}
+
+/* 2. NAVIGATION & HEADER (THE GRIMGRAINS TOP BAR) */
+header, nav, .dg-nav, .nav-container {
+    background-color: #fff !important;
+    background-image: none !important;
+    border-bottom: var(--border-thick) !important;
+    box-shadow: none !important;
+    padding: 10px 0 !important;
+}
+
+.dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
+    color: #000 !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+}
+
+.dg-nav a:hover, .nav-active {
+    background-color: var(--accent) !important;
+}
+
+/* 3. CONTENT CONTAINER (THE BRUTALIST BOX) */
 .dg-content-container {
     max-width: 850px !important;
     margin: 40px auto !important;
     border: var(--border-thick) !important;
-    box-shadow: 12px 12px 0px #000 !important; /* The signature offset shadow */
+    box-shadow: 12px 12px 0px #000 !important;
     padding: 40px !important;
     background-color: #fff !important;
 }
 
-/* 3. Navigation/Header - Make it a top bar */
-.dg-nav {
-    border-bottom: var(--border-thick) !important;
-    margin-bottom: 20px !important;
-    padding: 10px 0 !important;
+/* 4. TYPOGRAPHY */
+body, p, td, li, .dg-content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    font-weight: 500 !important;
 }
 
-/* 4. Headings - The "Technical Manual" look */
-h1, h2, h3 {
-    text-transform: uppercase !important;
+h1, h2, h3, h4, b, strong, th {
     font-weight: 800 !important;
+    text-transform: uppercase !important;
+    color: #000 !important;
+}
+
+h1, h2, h3 {
     border-bottom: var(--border-thick) !important;
     padding-bottom: 5px !important;
-    margin-top: 2em !important;
+    margin-top: 1.5em !important;
 }
 
-/* 5. Modernist Tables - Heavy headers, thin body grid */
+a {
+    font-weight: 800 !important;
+    color: #000 !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* 5. MODERNIST TABLES */
 table {
-    border: var(--border-thick) !important;
     border-collapse: collapse !important;
+    border: var(--border-thick) !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
 }
 
 th {
     background-color: #000 !important;
     color: #fff !important;
-    text-transform: uppercase !important;
     padding: 10px !important;
     font-size: 0.8rem !important;
+    border: var(--border-thin) !important;
 }
 
 td {
     border: var(--border-thin) !important;
     padding: 12px !important;
+    vertical-align: top;
 }
+
+/* 6. SEARCH & UI ELEMENTS */
+.search-container input, .search-view {
+    border: var(--border-thin) !important;
+    background: #fff !important;
