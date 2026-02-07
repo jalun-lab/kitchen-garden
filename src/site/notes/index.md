@@ -23,7 +23,7 @@
   </a>
 </div>
 
-<div class="modernist-recipe-grid">
+<div class="two-column-grid">
 
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 - [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]]
