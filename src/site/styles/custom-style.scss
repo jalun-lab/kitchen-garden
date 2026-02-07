@@ -73,61 +73,7 @@
 /* Optional Debugger: Uncomment the line below if it's still shifted */
 /* * { outline: 1px solid red !important; } */
 
-/* HOMEPAGE CATEGORIES GRID */
-.homepage-categories {
-    display: flex !important;
-    justify-content: space-between;
-    gap: 40px;
-    margin: 40px 0;
-    width: 100%;
-}
 
-.category-item {
-    flex: 1;
-    text-align: center;
-    text-decoration: none !important;
-    color: #000 !important;
-    border: 3px solid #000; /* Matching your logo border */
-    padding: 30px 20px;
-    transition: background-color 0.2s;
-}
-
-.category-item:hover {
-    background-color: #72dec2; /* Your mint accent */
-}
-
-.category-item img {
-    height: 100px !important;
-    width: auto !important;
-    margin-bottom: 20px;
-    filter: grayscale(100%); /* Grimgrains often uses monochrome icons */
-}
-
-.category-item:hover img {
-    filter: grayscale(0%); /* Brings color back on hover */
-}
-
-.category-title {
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-}
-
-/* FINAL HIGH-CONTRAST BLACKOUT */
-:root {
-    --text-normal: #000000 !important;
-    --text-muted: #000000 !important;
-    --text-faint: #000000 !important;
-    --text-accent: #000000 !important;
-}
-
-/* Force every possible text element to pure black */
-body, p, span, div, li, td, th, h1, h2, h3, h4, a, blockquote {
-    color: #000000 !important;
-    -webkit-font-smoothing: antialiased; /* Makes the JetBrains Mono crisp */
-    -moz-osx-font-smoothing: grayscale;
-}
 
 /* Ensure bold elements are truly heavy */
 b, strong {
@@ -212,23 +158,52 @@ a {
     }
 }
 
-/* Container for the grid */
-.two-column-grid {
+/* Container: Creates the 2-column layout */
+.homepage-categories {
     display: grid !important;
-    grid-template-columns: 1fr 1fr; /* Exactly two equal columns */
-    gap: 20px;                      /* Spacing between items */
-    align-items: start;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 16px;                      /* Space between cards */
+    margin-bottom: 2rem;
 }
 
-/* Force items to wrap to a new row every 2 items */
-.two-column-grid > * {
-    margin: 0;
-    width: 100%;
+/* Individual Card Styling */
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    text-decoration: none !important;
+    background-color: var(--background-secondary);
+    transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-/* Mobile Responsiveness: Switch to 1 column on small screens */
-@media (max-width: 600px) {
-    .two-column-grid {
+/* Hover Effect */
+.category-item:hover {
+    border-color: var(--interactive-accent);
+    transform: translateY(-2px);
+}
+
+/* Image Scaling */
+.category-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+/* Title Styling */
+.category-title {
+    font-weight: bold;
+    color: var(--text-normal);
+    text-align: center;
+}
+
+/* Mobile: Drop to 1 column on small screens */
+@media (max-width: 500px) {
+    .homepage-categories {
         grid-template-columns: 1fr;
     }
 }
