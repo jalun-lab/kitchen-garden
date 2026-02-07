@@ -1,27 +1,28 @@
-/* 1. Nuke the template's default UI */
+/* 1. UI RESET & GLOBAL WIDTH */
 .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
     display: none !important;
 }
 
-/* 2. Align Header Wrapper with Content */
+#main, .content, .dg-content-container, .modernist-recipe-grid {
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    padding: 20px;
+    background-color: white;
+}
+
+/* 2. HEADER & NAVIGATION */
 .header-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center; /* Centers the whole unit */
+    justify-content: center;
     background-color: #fff;
 }
 
 .grimgrains-header {
     width: 100%;
-    max-width: 850px; /* Exact match to your content container */
-    padding: 40px 40px 0 40px; /* Match internal content padding */
+    max-width: 700px;
+    padding: 40px 20px 0 20px;
     box-sizing: border-box;
-}
-
-/* 3. Logo Placeholder */
-.logo-container {
-    margin-bottom: 25px;
-    text-align: left;
 }
 
 .placeholder-logo {
@@ -31,13 +32,10 @@
     font-weight: 800;
     font-family: 'JetBrains Mono', monospace;
     letter-spacing: 2px;
-    color: #000;
 }
 
-/* 4. The Grimgrains Menu Lines */
 .grimgrains-nav {
-    border-bottom: 2px solid #000; /* Horizontal 2px line */
-    padding-bottom: 0;
+    border-bottom: 2px solid #000;
     margin-bottom: 20px;
 }
 
@@ -51,169 +49,103 @@
     color: #000 !important;
     font-weight: 800 !important;
     font-size: 0.9rem;
-    padding-bottom: 10px; /* Space between text and the 2px line */
+    padding-bottom: 10px;
     position: relative;
-    top: 2px; /* Shifts item down to sit exactly on the line */
+    top: 2px;
 }
 
-/* 5. Active Item 5px Line */
-/* This highlights the item when hovered or when given the .active class */
 .nav-item:hover, .nav-item.active {
     border-bottom: 5px solid #000;
 }
 
-/* 6. Content Container Fix */
-.dg-content-container {
-    max-width: 850px !important;
-    margin: 0 auto !important; /* Removes the top margin so it joins the header */
-    padding-top: 20px !important;
-    box-shadow: none !important; /* Removes the floating shadow for a flat look */
-}
-
-/* Optional Debugger: Uncomment the line below if it's still shifted */
-/* * { outline: 1px solid red !important; } */
-
-
-
-/* Ensure bold elements are truly heavy */
-b, strong {
-    font-weight: 800 !important;
-    color: #000000 !important;
-}
-
-/* Fix for links that might be inheriting a blue or gray */
-a {
-    color: #000000 !important;
-}
-
-/* FORCE THREE COLUMN LIST */
-.modernist-recipe-grid ul {
-    column-count: 3 !important;
-    column-gap: 40px !important;
-    column-rule: 1px solid #eee; /* Optional subtle divider */
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 40px 0 !important;
-}
-
-.modernist-recipe-grid li {
-    break-inside: avoid; /* Prevents a link from splitting across columns */
-    margin-bottom: 12px !important;
-    font-size: 0.9rem !important;
-    text-transform: uppercase;
-    font-weight: 800;
-}
-
-.modernist-recipe-grid li a {
-    color: #000 !important;
-    text-decoration: none !important;
-}
-
-.modernist-recipe-grid li a:hover {
-    background-color: #72dec2 !important;
-}
-
-/* Fix for the Dataview list headers if they appear */
-.modernist-recipe-grid .dataview.list-view-header {
-    display: none !important;
-}
-
-/* CLAMP CONTENT TO 850px */
-.modernist-recipe-grid {
-    max-width: 850px !important;
-    margin: 40px auto !important;
-    padding: 0 40px !important; /* Matches your header padding */
-    box-sizing: border-box !important;
-}
-
-/* THE THREE COLUMN LIST */
-.modernist-recipe-grid ul {
-    column-count: 3 !important;
-    column-gap: 40px !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
-}
-
-.modernist-recipe-grid li {
-    break-inside: avoid;
-    margin-bottom: 10px !important;
-    font-size: 0.85rem !important;
-    border-bottom: 1px solid #eee; /* Light divider for readability */
-    padding-bottom: 5px;
-}
-
-.modernist-recipe-grid li a {
-    color: #000 !important;
-    font-weight: 800 !important;
-    text-transform: uppercase;
-    text-decoration: none !important;
-}
-
-/* MOBILE FIX */
-@media (max-width: 700px) {
-    .modernist-recipe-grid ul {
-        column-count: 1 !important;
-    }
-}
-
-/* Container: Clean 2-column layout */
+/* 3. HOMEPAGE CATEGORY GRID (2-COLUMN) */
 .homepage-categories {
     display: grid !important;
     grid-template-columns: 1fr 1fr; 
-    gap: 0px; /* Set to 0 if you want them touching like a grid, or 10px for gaps */
-    border-top: 2px solid black;
-    border-left: 2px solid black;
+    gap: 0px; 
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    margin: 2rem 0;
 }
 
-/* Individual Card: Sharp corners and black borders */
 .category-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 20px;
-    
-    /* Square corners & Solid Black lines */
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-radius: 0px !important; 
-    
+    padding: 40px 20px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     text-decoration: none !important;
-    background-color: transparent;
+    background-color: white;
     transition: background-color 0.1s ease;
 }
 
-/* Hover: Invert the look (Modernist style) */
+.category-item img {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: contain;
+    margin-bottom: 15px;
+    filter: grayscale(100%) contrast(1.2);
+}
+
 .category-item:hover {
-    background-color: black;
+    background-color: black !important;
 }
 
 .category-item:hover .category-title {
-    color: white;
+    color: white !important;
 }
 
-/* Image/Icon: Black and white filter */
-.category-item img {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 15px;
-    filter: grayscale(100%) contrast(1.2); /* Enforces B&W look */
-}
-
-/* Title: Bold and uppercase for that brutalist/clean look */
 .category-title {
-    font-weight: 800;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: black;
-    text-align: center;
+    font-size: 0.9rem;
 }
 
-/* Mobile: Force single column but keep the square borders */
-@media (max-width: 500px) {
+/* 4. MODERNIST RECIPE LIST (ROWS) */
+.modernist-recipe-grid {
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid black;
+    padding: 0 !important; /* Reset padding for full-width borders */
+}
+
+.modernist-recipe-grid ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modernist-recipe-grid a, .modernist-recipe-grid li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 3px solid black;
+    text-decoration: none !important;
+    color: black !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.1s ease;
+}
+
+.modernist-recipe-grid a:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* 5. GLOBAL TYPOGRAPHY & MOBILE */
+b, strong {
+    font-weight: 800 !important;
+    color: #000 !important;
+}
+
+@media (max-width: 600px) {
     .homepage-categories {
         grid-template-columns: 1fr;
     }
