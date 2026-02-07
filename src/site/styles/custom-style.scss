@@ -174,3 +174,44 @@ td {
 
 /* Optional Debugger: Uncomment the line below if it's still shifted */
 /* * { outline: 1px solid red !important; } */
+
+/* HOMEPAGE CATEGORIES GRID */
+.homepage-categories {
+    display: flex !important;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.category-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none !important;
+    color: #000 !important;
+    border: 3px solid #000; /* Matching your logo border */
+    padding: 30px 20px;
+    transition: background-color 0.2s;
+}
+
+.category-item:hover {
+    background-color: #72dec2; /* Your mint accent */
+}
+
+.category-item img {
+    height: 100px !important;
+    width: auto !important;
+    margin-bottom: 20px;
+    filter: grayscale(100%); /* Grimgrains often uses monochrome icons */
+}
+
+.category-item:hover img {
+    filter: grayscale(0%); /* Brings color back on hover */
+}
+
+.category-title {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
