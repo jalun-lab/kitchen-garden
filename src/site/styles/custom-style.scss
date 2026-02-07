@@ -1,77 +1,77 @@
-// /* 1. Nuke the template's default UI */
-// .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
-//     display: none !important;
-// }
+/* 1. Nuke the template's default UI */
+.dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
+    display: none !important;
+}
 
-// /* 2. Align Header Wrapper with Content */
-// .header-wrapper {
-//     width: 100%;
-//     display: flex;
-//     justify-content: center; /* Centers the whole unit */
-//     background-color: #fff;
-// }
+/* 2. Align Header Wrapper with Content */
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the whole unit */
+    background-color: #fff;
+}
 
-// .grimgrains-header {
-//     width: 100%;
-//     max-width: 850px; /* Exact match to your content container */
-//     padding: 40px 40px 0 40px; /* Match internal content padding */
-//     box-sizing: border-box;
-// }
+.grimgrains-header {
+    width: 100%;
+    max-width: 850px; /* Exact match to your content container */
+    padding: 40px 40px 0 40px; /* Match internal content padding */
+    box-sizing: border-box;
+}
 
-// /* 3. Logo Placeholder */
-// .logo-container {
-//     margin-bottom: 25px;
-//     text-align: left;
-// }
+/* 3. Logo Placeholder */
+.logo-container {
+    margin-bottom: 25px;
+    text-align: left;
+}
 
-// .placeholder-logo {
-//     display: inline-block;
-//     border: 3px solid #000;
-//     padding: 8px 18px;
-//     font-weight: 800;
-//     font-family: 'JetBrains Mono', monospace;
-//     letter-spacing: 2px;
-//     color: #000;
-// }
+.placeholder-logo {
+    display: inline-block;
+    border: 3px solid #000;
+    padding: 8px 18px;
+    font-weight: 800;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
+    color: #000;
+}
 
-// /* 4. The Grimgrains Menu Lines */
-// .grimgrains-nav {
-//     border-bottom: 2px solid #000; /* Horizontal 2px line */
-//     padding-bottom: 0;
-//     margin-bottom: 20px;
-// }
+/* 4. The Grimgrains Menu Lines */
+.grimgrains-nav {
+    border-bottom: 2px solid #000; /* Horizontal 2px line */
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
 
-// .nav-links {
-//     display: flex;
-//     gap: 30px;
-// }
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
 
-// .nav-item {
-//     text-decoration: none !important;
-//     color: #000 !important;
-//     font-weight: 800 !important;
-//     font-size: 0.9rem;
-//     padding-bottom: 10px; /* Space between text and the 2px line */
-//     position: relative;
-//     top: 2px; /* Shifts item down to sit exactly on the line */
-// }
+.nav-item {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: 800 !important;
+    font-size: 0.9rem;
+    padding-bottom: 10px; /* Space between text and the 2px line */
+    position: relative;
+    top: 2px; /* Shifts item down to sit exactly on the line */
+}
 
-// /* 5. Active Item 5px Line */
-// /* This highlights the item when hovered or when given the .active class */
-// .nav-item:hover, .nav-item.active {
-//     border-bottom: 5px solid #000;
-// }
+/* 5. Active Item 5px Line */
+/* This highlights the item when hovered or when given the .active class */
+.nav-item:hover, .nav-item.active {
+    border-bottom: 5px solid #000;
+}
 
-// /* 6. Content Container Fix */
-// .dg-content-container {
-//     max-width: 850px !important;
-//     margin: 0 auto !important; /* Removes the top margin so it joins the header */
-//     padding-top: 20px !important;
-//     box-shadow: none !important; /* Removes the floating shadow for a flat look */
-// }
+/* 6. Content Container Fix */
+.dg-content-container {
+    max-width: 850px !important;
+    margin: 0 auto !important; /* Removes the top margin so it joins the header */
+    padding-top: 20px !important;
+    box-shadow: none !important; /* Removes the floating shadow for a flat look */
+}
 
-// /* Optional Debugger: Uncomment the line below if it's still shifted */
-// /* * { outline: 1px solid red !important; } */
+/* Optional Debugger: Uncomment the line below if it's still shifted */
+/* * { outline: 1px solid red !important; } */
 
 /* HOMEPAGE CATEGORIES GRID */
 .homepage-categories {
