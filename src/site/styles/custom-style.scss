@@ -1,127 +1,60 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+/* GRIMGRAINS RESET - SCORCHED EARTH */
 
-/* GRIMGRAINS EXACT LIGHT MODE THEME */
-
+/* 1. Neutralize Template Defaults */
 :root {
-    --background: #ffffff;
-    --text: #000000;
-    --accent: #72dec2; /* The Grimgrains Mint */
-    --border-color: #000000;
-    --font-mono: "Iosevka", "Courier New", Courier, monospace;
+    --bg: #ffffff !important;
+    --body-background: #ffffff !important;
+    --outline: #000000 !important;
+    --text-normal: #000000 !important;
+    --text-muted: #444444 !important;
+    --interactive-accent: #72dec2 !important; /* Grimgrains Mint */
+    --font-family: "Courier New", Courier, monospace !important;
 }
 
-/* Base Body Styling */
-body {
-    background-color: var(--background);
-    color: var(--text);
-    font-family: var(--font-mono);
-    line-height: 1.6;
-    font-size: 15px;
+/* 2. Force Background & Text */
+html, body, .dg-stack {
+    background-color: white !important;
+    color: black !important;
+    font-family: "Courier New", Courier, monospace !important;
+    background-image: none !important; /* Removes any default gradients */
 }
 
-/* Remove all rounded corners - Grimgrains is strictly rectangular */
-* {
-    border-radius: 0px !important;
-}
-
-/* The Main Content Container */
+/* 3. The Brutalist Border Box */
 .dg-content-container {
-    border: 2px solid var(--border-color);
-    padding: 40px;
-    margin-top: 20px;
+    border: 3px solid black !important;
+    box-shadow: 8px 8px 0px black !important;
+    border-radius: 0px !important;
+    padding: 2rem !important;
+    margin-top: 2rem !important;
 }
 
-/* Headings: All Caps, Bold, with Bottom Border */
-h1, h2, h3, h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 5px;
-    margin-top: 1.5em;
+/* 4. Headings - Clean & Bold */
+h1, h2, h3 {
+    text-transform: uppercase !important;
+    border-bottom: 3px solid black !important;
+    padding-bottom: 5px !important;
+    letter-spacing: 1px !important;
 }
 
-/* Modernist Table Styling - Matching the Grimgrains Recipe Grid */
+/* 5. Modernist Table Styling */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 20px 0;
-    border: 2px solid var(--border-color);
+    border-collapse: collapse !important;
+    border: 3px solid black !important;
+    width: 100% !important;
 }
 
 th, td {
-    border: 1px solid var(--border-color);
-    padding: 10px;
-    text-align: left;
+    border: 1px solid black !important;
+    padding: 12px !important;
+    border-radius: 0px !important;
 }
 
 th {
-    background-color: var(--text);
-    color: var(--background);
-    text-transform: uppercase;
-    font-size: 0.8em;
+    background-color: black !important;
+    color: white !important;
 }
 
-/* Links and Interactivity */
-a {
-    color: var(--text);
-    text-decoration: none;
-    border-bottom: 1px solid var(--text);
+/* 6. Remove rounded corners from everything */
+* {
+    border-radius: 0px !important;
 }
-
-a:hover {
-    background-color: var(--accent);
-    color: var(--text);
-}
-
-/* The Navigation/Sidebar Boxes */
-.dg-nav, .dg-sidebar {
-    border: 2px solid var(--border-color);
-    background: var(--background);
-}
-
-/* Horizontal Rules */
-hr {
-    border: none;
-    border-top: 2px solid var(--border-color);
-    margin: 30px 0;
-}
-
-    /* Styling for your specific equipment and macro callouts */
-blockquote {
-    border: 2px solid #000;
-    background: #f9f9f9;
-    padding: 15px;
-    margin: 20px 0;
-    font-style: normal;
-}
-
-/* Make Dataview tables look like technical logs */
-.dataview.table-view-table {
-    width: 100%;
-    border: 2px solid #000;
-}
-
-/* The signature mint accent for buttons/links */
-.dg-tag {
-    background-color: #72dec2 !important;
-    color: #000 !important;
-    border: 1px solid #000;
-    padding: 2px 6px;
-    text-transform: uppercase;
-    font-size: 0.7em;
-}
-
-    
-}
-
