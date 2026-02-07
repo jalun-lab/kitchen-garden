@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
-
 :root {
     --bg: #ffffff !important;
     --text: #000000 !important;
     --accent: #72dec2 !important;
-    --font-family: 'JetBrains Mono', monospace !important;
-    --border-thick: 3px solid #000 !important;
-    --border-thin: 1px solid #000 !important;
+    --font-family: monospace !important;
+    --border-thick: 3px solid #000000 !important;
+    --border-thin: 1px solid #000000 !important;
     --body-background: #ffffff !important;
     --text-normal: #000000 !important;
     --interactive-accent: #72dec2 !important;
@@ -15,7 +13,7 @@
 
 * {
     border-radius: 0px !important;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 html, body, .dg-stack, .dg-main-content {
@@ -23,8 +21,6 @@ html, body, .dg-stack, .dg-main-content {
     background-image: none !important;
     color: #000000 !important;
     font-family: var(--font-family) !important;
-    -webkit-font-smoothing: none !important;
-    font-variant-ligatures: none;
 }
 
 header, nav, .dg-nav, .nav-container {
@@ -43,7 +39,7 @@ header, nav, .dg-nav, .nav-container {
 }
 
 .dg-nav a:hover, .nav-active {
-    background-color: var(--accent) !important;
+    background-color: #72dec2 !important;
 }
 
 .dg-content-container {
@@ -58,7 +54,6 @@ header, nav, .dg-nav, .nav-container {
 body, p, td, li, .dg-content {
     font-size: 14px !important;
     line-height: 1.6 !important;
-    font-weight: 500 !important;
 }
 
 h1, h2, h3, h4, b, strong, th {
@@ -71,3 +66,36 @@ h1, h2, h3 {
     border-bottom: var(--border-thick) !important;
     padding-bottom: 5px !important;
     margin-top: 1.5em !important;
+}
+
+a {
+    font-weight: 800 !important;
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border: var(--border-thick) !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+}
+
+th {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+    border: var(--border-thin) !important;
+}
+
+td {
+    border: var(--border-thin) !important;
+    padding: 12px !important;
+    vertical-align: top !important;
+}
+
+.search-container input, .search-view {
+    border: var(--border-thin) !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+}
