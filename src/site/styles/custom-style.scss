@@ -215,3 +215,29 @@ td {
     letter-spacing: 1px;
     font-size: 0.9rem;
 }
+
+/* FINAL HIGH-CONTRAST BLACKOUT */
+:root {
+    --text-normal: #000000 !important;
+    --text-muted: #000000 !important;
+    --text-faint: #000000 !important;
+    --text-accent: #000000 !important;
+}
+
+/* Force every possible text element to pure black */
+body, p, span, div, li, td, th, h1, h2, h3, h4, a, blockquote {
+    color: #000000 !important;
+    -webkit-font-smoothing: antialiased; /* Makes the JetBrains Mono crisp */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure bold elements are truly heavy */
+b, strong {
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
+
+/* Fix for links that might be inheriting a blue or gray */
+a {
+    color: #000000 !important;
+}
