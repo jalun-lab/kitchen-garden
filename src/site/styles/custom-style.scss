@@ -100,30 +100,63 @@ td {
     color: #000000 !important;
 }
 
-/* FORCE GRIMGRAINS NAVBAR */
-.grimgrains-top-nav {
-    width: 100% !important;
-    background-color: #ffffff !important;
-    border-bottom: 3px solid #000000 !important;
-    padding: 20px 0 !important;
-    display: flex !important;
-    justify-content: center !important;
-    position: relative !important;
+/* 1. Reset and Hide Default Header Elements */
+header, .dg-nav, .search-button, .sidebar-left {
+    display: none !important; /* Removes the old header entirely */
+}
+
+/* 2. New Grimgrains Header Container */
+.grimgrains-header {
+    display: block !important;
+    max-width: 850px; /* Matches your content container */
+    margin: 40px auto 0 auto !important; /* Centers the header */
+    padding: 0 40px !important; /* Matches content padding */
+}
+
+/* 3. Logo Styling */
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.placeholder-logo {
+    display: inline-block;
+    border: 3px solid #000;
+    padding: 5px 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+/* 4. Navigation & 2px Line */
+.grimgrains-nav {
+    border-bottom: 2px solid #000; /* The required 2px line */
+    padding-bottom: 10px;
 }
 
 .nav-links {
-    display: flex !important;
-    gap: 30px !important;
+    display: flex;
+    justify-content: flex-start; /* Left-aligned */
+    gap: 25px;
 }
 
-.nav-links a {
-    color: #000000 !important;
-    font-weight: 800 !important;
+.nav-item {
     text-decoration: none !important;
-    font-size: 0.9rem !important;
+    color: #000 !important;
+    font-weight: 800 !important;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+    position: relative;
+    padding-bottom: 12px;
 }
 
-/* Kill the template's default search and sidebar buttons */
-.search-button, .sidebar-left, .dg-nav-icon {
-    display: none !important;
+/* 5. Active Item 5px Line */
+/* Note: The 'nav-active' class is usually added by the plugin or manually in frontmatter */
+.nav-item:hover, .nav-active {
+    box-shadow: 0 5px 0 0 #000; /* Creates the 5px black line beneath the text */
+}
+
+/* 6. Alignment Fix for Main Content */
+.dg-content-container {
+    margin-top: 0 !important; /* Pulls content up to the header */
+    box-shadow: none !important; /* Optional: Grimgrains usually doesn't use the offset shadow on the container if the header is flat */
 }
