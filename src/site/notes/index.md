@@ -12,6 +12,15 @@
     <img src="https://grimgrains.com/media/ingredients/turmeric_root.png" alt="Turmeric">
     <div class="category-title">Sometimes Food</div>
   </a>
+
+<a href="/saturday-menus" class="category-item">
+    <img src="https://grimgrains.com/media/ingredients/lentils.png" alt="Lentils">
+    <div class="category-title">Saturday Menus</div>
+  </a>
+<a href="/every-day-food" class="category-item">
+    <img src="https://grimgrains.com/media/ingredients/lentils.png" alt="Lentils">
+    <div class="category-title">Every Day Food</div>
+  </a>
 </div>
 
 <div class="modernist-recipe-grid">
