@@ -1,104 +1,104 @@
-:root {
-    --bg: #ffffff !important;
-    --text: #000000 !important;
-    --accent: #72dec2 !important;
-    --font-family: monospace !important;
-    --border-thick: 3px solid #000000 !important;
-    --border-thin: 1px solid #000000 !important;
-    --body-background: #ffffff !important;
-    --text-normal: #000000 !important;
-    --interactive-accent: #72dec2 !important;
-    --background-secondary: #ffffff !important;
-}
+// :root {
+//     --bg: #ffffff !important;
+//     --text: #000000 !important;
+//     --accent: #72dec2 !important;
+//     --font-family: monospace !important;
+//     --border-thick: 3px solid #000000 !important;
+//     --border-thin: 1px solid #000000 !important;
+//     --body-background: #ffffff !important;
+//     --text-normal: #000000 !important;
+//     --interactive-accent: #72dec2 !important;
+//     --background-secondary: #ffffff !important;
+// }
 
-* {
-    border-radius: 0px !important;
-    box-sizing: border-box !important;
-}
+// * {
+//     border-radius: 0px !important;
+//     box-sizing: border-box !important;
+// }
 
-html, body, .dg-stack, .dg-main-content {
-    background-color: #ffffff !important;
-    background-image: none !important;
-    color: #000000 !important;
-    font-family: var(--font-family) !important;
-}
+// html, body, .dg-stack, .dg-main-content {
+//     background-color: #ffffff !important;
+//     background-image: none !important;
+//     color: #000000 !important;
+//     font-family: var(--font-family) !important;
+// }
 
-header, nav, .dg-nav, .nav-container {
-    background-color: #ffffff !important;
-    background-image: none !important;
-    border-bottom: var(--border-thick) !important;
-    box-shadow: none !important;
-    padding: 10px 0 !important;
-}
+// header, nav, .dg-nav, .nav-container {
+//     background-color: #ffffff !important;
+//     background-image: none !important;
+//     border-bottom: var(--border-thick) !important;
+//     box-shadow: none !important;
+//     padding: 10px 0 !important;
+// }
 
-.dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
-    color: #000000 !important;
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-    text-decoration: none !important;
-}
+// .dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
+//     color: #000000 !important;
+//     font-weight: 800 !important;
+//     text-transform: uppercase !important;
+//     text-decoration: none !important;
+// }
 
-.dg-nav a:hover, .nav-active {
-    background-color: #72dec2 !important;
-}
+// .dg-nav a:hover, .nav-active {
+//     background-color: #72dec2 !important;
+// }
 
-.dg-content-container {
-    max-width: 850px !important;
-    margin: 40px auto !important;
-    border: var(--border-thick) !important;
-    box-shadow: 12px 12px 0px #000000 !important;
-    padding: 40px !important;
-    background-color: #ffffff !important;
-}
+// .dg-content-container {
+//     max-width: 850px !important;
+//     margin: 40px auto !important;
+//     border: var(--border-thick) !important;
+//     box-shadow: 12px 12px 0px #000000 !important;
+//     padding: 40px !important;
+//     background-color: #ffffff !important;
+// }
 
-body, p, td, li, .dg-content {
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-}
+// body, p, td, li, .dg-content {
+//     font-size: 14px !important;
+//     line-height: 1.6 !important;
+// }
 
-h1, h2, h3, h4, b, strong, th {
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-    color: #000000 !important;
-}
+// h1, h2, h3, h4, b, strong, th {
+//     font-weight: 800 !important;
+//     text-transform: uppercase !important;
+//     color: #000000 !important;
+// }
 
-h1, h2, h3 {
-    border-bottom: var(--border-thick) !important;
-    padding-bottom: 5px !important;
-    margin-top: 1.5em !important;
-}
+// h1, h2, h3 {
+//     border-bottom: var(--border-thick) !important;
+//     padding-bottom: 5px !important;
+//     margin-top: 1.5em !important;
+// }
 
-a {
-    font-weight: 800 !important;
-    color: #000000 !important;
-    text-decoration: underline !important;
-}
+// a {
+//     font-weight: 800 !important;
+//     color: #000000 !important;
+//     text-decoration: underline !important;
+// }
 
-table {
-    border-collapse: collapse !important;
-    border: var(--border-thick) !important;
-    width: 100% !important;
-    margin: 20px 0 !important;
-}
+// table {
+//     border-collapse: collapse !important;
+//     border: var(--border-thick) !important;
+//     width: 100% !important;
+//     margin: 20px 0 !important;
+// }
 
-th {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-    padding: 10px !important;
-    border: var(--border-thin) !important;
-}
+// th {
+//     background-color: #000000 !important;
+//     color: #ffffff !important;
+//     padding: 10px !important;
+//     border: var(--border-thin) !important;
+// }
 
-td {
-    border: var(--border-thin) !important;
-    padding: 12px !important;
-    vertical-align: top !important;
-}
+// td {
+//     border: var(--border-thin) !important;
+//     padding: 12px !important;
+//     vertical-align: top !important;
+// }
 
-.search-container input, .search-view {
-    border: var(--border-thin) !important;
-    background: #ffffff !important;
-    color: #000000 !important;
-}
+// .search-container input, .search-view {
+//     border: var(--border-thin) !important;
+//     background: #ffffff !important;
+//     color: #000000 !important;
+// }
 
 /* 1. Nuke the template's default UI */
 .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
