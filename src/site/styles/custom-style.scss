@@ -172,49 +172,59 @@ td {
     box-shadow: none !important; /* Removes the floating shadow for a flat look */
 }
 
-/* ALIGNMENT RECOVERY */
-
-/* 1. Reset the parent containers but keep the centering logic */
-.dg-stack {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important; /* Centering anchor */
-    width: 100% !important;
-}
-
-/* 2. Remove the 'Shift' - Target the container that usually holds the padding */
-.dg-main-content, 
-.dg-content-container {
-    margin: 0 auto !important;
-    padding-left: 0 !important; /* Forces removal of sidebar 'ghost' space */
-    padding-right: 0 !important;
+/* 1. FORCE GLOBAL ALIGNMENT */
+.dg-stack, .dg-main-content, .dg-content-container, .header-wrapper {
+    display: block !important;
     width: 100% !important;
     max-width: 850px !important;
-}
-
-/* 3. The Header & Content Alignment Anchor */
-/* We will use 20px padding on both so the text doesn't touch the screen edge */
-.grimgrains-header,
-.dg-content {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    margin: 0 auto !important; /* Centering the whole track */
+    padding: 0 !important;
     box-sizing: border-box !important;
 }
 
-/* 4. Fix the Menu Spacing */
-.grimgrains-nav {
-    border-bottom: 2px solid #000;
-    margin-bottom: 20px;
+/* 2. MATCH INTERNAL PADDING (The Alignment Anchor) */
+/* This ensures the 'Archive_Log' and the 'Recipe Title' start at the same pixel */
+.grimgrains-header, .dg-content, .dg-post-content {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
 }
 
+/* 3. FIX THE MENU (Flex Recovery) */
 .nav-links {
-    display: flex;
-    justify-content: flex-start; /* Keeps it left-aligned within the 850px */
-    gap: 25px;
+    display: flex !important; /* Forces horizontal layout */
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    gap: 25px !important;
+    margin: 0 !important;
     padding: 0 !important;
+    list-style: none !important;
 }
 
-/* 5. Ensure the 2px line is exactly the width of the content */
-.grimgrains-nav {
-    width: 100%;
+.nav-item {
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: 800 !important;
+    padding-bottom: 10px;
 }
+
+/* 4. THE GRIMGRAINS LINES */
+.grimgrains-nav {
+    border-bottom: 2px solid #000 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Active 5px line */
+.nav-item:hover, .nav-item.active {
+    box-shadow: 0 5px 0 0 #000 !important;
+}
+
+/* 5. NUKE GHOST SPACE */
+.sidebar-left, .sidebar-right, .dg-sidebar, .search-button, .breadcrumb {
+    display: none !important;
+}
+
+/* Optional Debugger: Uncomment the line below if it's still shifted */
+/* * { outline: 1px solid red !important; } */
