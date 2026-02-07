@@ -132,6 +132,9 @@
     font-weight: 700;
     text-transform: uppercase;
     transition: background-color 0.1s ease;
+    word-break: break-word;   /* Allows long words to break if necessary */
+    overflow-wrap: anywhere; /* Ensures text stays inside the box */
+    max-width: 100%;         /* Forces the link to respect the 700px parent */
 }
 
 .modernist-recipe-grid a:hover {
