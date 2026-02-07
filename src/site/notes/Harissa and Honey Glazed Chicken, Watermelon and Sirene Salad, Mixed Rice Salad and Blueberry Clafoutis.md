@@ -6,13 +6,10 @@
 ***On:*** *07/02/2026*
 
 ### Equipment & Processing
-* ***Preparation*:** (e.g., the Magimix 4200xl, the Bamix Gastro)
-* ***Cooking*:** #pressure-cooker #sous-vide 
-* ***Dehydrating*:** (e.g., the Benchfoods Dehydrator)
-* ***Finishing*:** (e.g., the Maap Gas Blow Torch)
+* ***Preparation*:** [[Equipment/Chamber Vacuum\|Chamber Vacuum]]
+* ***Cooking*:** [[Equipment/Sous-Vide\|Sous-Vide]]
+* ***Finishing*:** [[MAAP Gas Blowtorch\|MAAP Gas Blowtorch]]
 ---
-
-Here is the consolidated menu for your Saturday lunch and the total shopping list required to pull it off.
 
 ### **1. Harissa and Honey-Glazed Chicken Skewers**
 
