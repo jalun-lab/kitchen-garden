@@ -273,3 +273,43 @@ a {
 .modernist-recipe-grid .dataview.list-view-header {
     display: none !important;
 }
+
+/* CLAMP CONTENT TO 850px */
+.modernist-recipe-grid {
+    max-width: 850px !important;
+    margin: 40px auto !important;
+    padding: 0 40px !important; /* Matches your header padding */
+    box-sizing: border-box !important;
+}
+
+/* THE THREE COLUMN LIST */
+.modernist-recipe-grid ul {
+    column-count: 3 !important;
+    column-gap: 40px !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.modernist-recipe-grid li {
+    break-inside: avoid;
+    margin-bottom: 10px !important;
+    font-size: 0.85rem !important;
+    border-bottom: 1px solid #eee; /* Light divider for readability */
+    padding-bottom: 5px;
+}
+
+.modernist-recipe-grid li a {
+    color: #000 !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+/* MOBILE FIX */
+@media (max-width: 700px) {
+    .modernist-recipe-grid ul {
+        column-count: 1 !important;
+    }
+}
