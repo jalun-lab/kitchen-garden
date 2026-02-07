@@ -1,179 +1,77 @@
-// :root {
-//     --bg: #ffffff !important;
-//     --text: #000000 !important;
-//     --accent: #72dec2 !important;
-//     --font-family: monospace !important;
-//     --border-thick: 3px solid #000000 !important;
-//     --border-thin: 1px solid #000000 !important;
-//     --body-background: #ffffff !important;
-//     --text-normal: #000000 !important;
-//     --interactive-accent: #72dec2 !important;
-//     --background-secondary: #ffffff !important;
+// /* 1. Nuke the template's default UI */
+// .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
+//     display: none !important;
 // }
 
-// * {
-//     border-radius: 0px !important;
-//     box-sizing: border-box !important;
+// /* 2. Align Header Wrapper with Content */
+// .header-wrapper {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center; /* Centers the whole unit */
+//     background-color: #fff;
 // }
 
-// html, body, .dg-stack, .dg-main-content {
-//     background-color: #ffffff !important;
-//     background-image: none !important;
-//     color: #000000 !important;
-//     font-family: var(--font-family) !important;
+// .grimgrains-header {
+//     width: 100%;
+//     max-width: 850px; /* Exact match to your content container */
+//     padding: 40px 40px 0 40px; /* Match internal content padding */
+//     box-sizing: border-box;
 // }
 
-// header, nav, .dg-nav, .nav-container {
-//     background-color: #ffffff !important;
-//     background-image: none !important;
-//     border-bottom: var(--border-thick) !important;
-//     box-shadow: none !important;
-//     padding: 10px 0 !important;
+// /* 3. Logo Placeholder */
+// .logo-container {
+//     margin-bottom: 25px;
+//     text-align: left;
 // }
 
-// .dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
-//     color: #000000 !important;
-//     font-weight: 800 !important;
-//     text-transform: uppercase !important;
+// .placeholder-logo {
+//     display: inline-block;
+//     border: 3px solid #000;
+//     padding: 8px 18px;
+//     font-weight: 800;
+//     font-family: 'JetBrains Mono', monospace;
+//     letter-spacing: 2px;
+//     color: #000;
+// }
+
+// /* 4. The Grimgrains Menu Lines */
+// .grimgrains-nav {
+//     border-bottom: 2px solid #000; /* Horizontal 2px line */
+//     padding-bottom: 0;
+//     margin-bottom: 20px;
+// }
+
+// .nav-links {
+//     display: flex;
+//     gap: 30px;
+// }
+
+// .nav-item {
 //     text-decoration: none !important;
+//     color: #000 !important;
+//     font-weight: 800 !important;
+//     font-size: 0.9rem;
+//     padding-bottom: 10px; /* Space between text and the 2px line */
+//     position: relative;
+//     top: 2px; /* Shifts item down to sit exactly on the line */
 // }
 
-// .dg-nav a:hover, .nav-active {
-//     background-color: #72dec2 !important;
+// /* 5. Active Item 5px Line */
+// /* This highlights the item when hovered or when given the .active class */
+// .nav-item:hover, .nav-item.active {
+//     border-bottom: 5px solid #000;
 // }
 
+// /* 6. Content Container Fix */
 // .dg-content-container {
 //     max-width: 850px !important;
-//     margin: 40px auto !important;
-//     border: var(--border-thick) !important;
-//     box-shadow: 12px 12px 0px #000000 !important;
-//     padding: 40px !important;
-//     background-color: #ffffff !important;
+//     margin: 0 auto !important; /* Removes the top margin so it joins the header */
+//     padding-top: 20px !important;
+//     box-shadow: none !important; /* Removes the floating shadow for a flat look */
 // }
 
-// body, p, td, li, .dg-content {
-//     font-size: 14px !important;
-//     line-height: 1.6 !important;
-// }
-
-// h1, h2, h3, h4, b, strong, th {
-//     font-weight: 800 !important;
-//     text-transform: uppercase !important;
-//     color: #000000 !important;
-// }
-
-// h1, h2, h3 {
-//     border-bottom: var(--border-thick) !important;
-//     padding-bottom: 5px !important;
-//     margin-top: 1.5em !important;
-// }
-
-// a {
-//     font-weight: 800 !important;
-//     color: #000000 !important;
-//     text-decoration: underline !important;
-// }
-
-// table {
-//     border-collapse: collapse !important;
-//     border: var(--border-thick) !important;
-//     width: 100% !important;
-//     margin: 20px 0 !important;
-// }
-
-// th {
-//     background-color: #000000 !important;
-//     color: #ffffff !important;
-//     padding: 10px !important;
-//     border: var(--border-thin) !important;
-// }
-
-// td {
-//     border: var(--border-thin) !important;
-//     padding: 12px !important;
-//     vertical-align: top !important;
-// }
-
-// .search-container input, .search-view {
-//     border: var(--border-thin) !important;
-//     background: #ffffff !important;
-//     color: #000000 !important;
-// }
-
-/* 1. Nuke the template's default UI */
-.dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
-    display: none !important;
-}
-
-/* 2. Align Header Wrapper with Content */
-.header-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Centers the whole unit */
-    background-color: #fff;
-}
-
-.grimgrains-header {
-    width: 100%;
-    max-width: 850px; /* Exact match to your content container */
-    padding: 40px 40px 0 40px; /* Match internal content padding */
-    box-sizing: border-box;
-}
-
-/* 3. Logo Placeholder */
-.logo-container {
-    margin-bottom: 25px;
-    text-align: left;
-}
-
-.placeholder-logo {
-    display: inline-block;
-    border: 3px solid #000;
-    padding: 8px 18px;
-    font-weight: 800;
-    font-family: 'JetBrains Mono', monospace;
-    letter-spacing: 2px;
-    color: #000;
-}
-
-/* 4. The Grimgrains Menu Lines */
-.grimgrains-nav {
-    border-bottom: 2px solid #000; /* Horizontal 2px line */
-    padding-bottom: 0;
-    margin-bottom: 20px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-item {
-    text-decoration: none !important;
-    color: #000 !important;
-    font-weight: 800 !important;
-    font-size: 0.9rem;
-    padding-bottom: 10px; /* Space between text and the 2px line */
-    position: relative;
-    top: 2px; /* Shifts item down to sit exactly on the line */
-}
-
-/* 5. Active Item 5px Line */
-/* This highlights the item when hovered or when given the .active class */
-.nav-item:hover, .nav-item.active {
-    border-bottom: 5px solid #000;
-}
-
-/* 6. Content Container Fix */
-.dg-content-container {
-    max-width: 850px !important;
-    margin: 0 auto !important; /* Removes the top margin so it joins the header */
-    padding-top: 20px !important;
-    box-shadow: none !important; /* Removes the floating shadow for a flat look */
-}
-
-/* Optional Debugger: Uncomment the line below if it's still shifted */
-/* * { outline: 1px solid red !important; } */
+// /* Optional Debugger: Uncomment the line below if it's still shifted */
+// /* * { outline: 1px solid red !important; } */
 
 /* HOMEPAGE CATEGORIES GRID */
 .homepage-categories {
