@@ -6,10 +6,10 @@
     --text: #000000 !important;
     --accent: #72dec2 !important;
     --font-family: 'JetBrains Mono', monospace !important;
-    --border-thick: 3px solid #000;
-    --border-thin: 1px solid #000;
+    --border-thick: 3px solid #000 !important;
+    --border-thin: 1px solid #000 !important;
     
-    /* Template Override Variables */
+    /* Template Overrides */
     --body-background: #ffffff !important;
     --text-normal: #000000 !important;
     --interactive-accent: #72dec2 !important;
@@ -30,7 +30,7 @@ html, body, .dg-stack, .dg-main-content {
     font-variant-ligatures: none;
 }
 
-/* 2. NAVIGATION & HEADER (THE GRIMGRAINS TOP BAR) */
+/* 2. NAVIGATION & HEADER */
 header, nav, .dg-nav, .nav-container {
     background-color: #fff !important;
     background-image: none !important;
@@ -50,7 +50,7 @@ header, nav, .dg-nav, .nav-container {
     background-color: var(--accent) !important;
 }
 
-/* 3. CONTENT CONTAINER (THE BRUTALIST BOX) */
+/* 3. CONTENT CONTAINER */
 .dg-content-container {
     max-width: 850px !important;
     margin: 40px auto !important;
@@ -64,51 +64,4 @@ header, nav, .dg-nav, .nav-container {
 body, p, td, li, .dg-content {
     font-size: 14px !important;
     line-height: 1.6 !important;
-    font-weight: 500 !important;
-}
-
-h1, h2, h3, h4, b, strong, th {
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-    color: #000 !important;
-}
-
-h1, h2, h3 {
-    border-bottom: var(--border-thick) !important;
-    padding-bottom: 5px !important;
-    margin-top: 1.5em !important;
-}
-
-a {
-    font-weight: 800 !important;
-    color: #000 !important;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
-/* 5. MODERNIST TABLES */
-table {
-    border-collapse: collapse !important;
-    border: var(--border-thick) !important;
-    width: 100% !important;
-    margin: 20px 0 !important;
-}
-
-th {
-    background-color: #000 !important;
-    color: #fff !important;
-    padding: 10px !important;
-    font-size: 0.8rem !important;
-    border: var(--border-thin) !important;
-}
-
-td {
-    border: var(--border-thin) !important;
-    padding: 12px !important;
-    vertical-align: top;
-}
-
-/* 6. SEARCH & UI ELEMENTS */
-.search-container input, .search-view {
-    border: var(--border-thin) !important;
-    background: #fff !important;
+    font-weight: 500
