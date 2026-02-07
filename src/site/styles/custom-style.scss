@@ -98,3 +98,63 @@ a {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
+/* GRIMGRAINS EXACT SPEC */
+
+:root {
+    --bg: #ffffff !important;
+    --text: #000000 !important;
+    --accent: #72dec2 !important; /* The Mint */
+    --border-thick: 3px solid #000;
+    --border-thin: 1px solid #000;
+}
+
+/* 1. Global Box Model - No soft corners */
+* {
+    border-radius: 0px !important;
+}
+
+/* 2. The Main Container - Force a narrower, book-like feel */
+.dg-content-container {
+    max-width: 850px !important;
+    margin: 40px auto !important;
+    border: var(--border-thick) !important;
+    box-shadow: 12px 12px 0px #000 !important; /* The signature offset shadow */
+    padding: 40px !important;
+    background-color: #fff !important;
+}
+
+/* 3. Navigation/Header - Make it a top bar */
+.dg-nav {
+    border-bottom: var(--border-thick) !important;
+    margin-bottom: 20px !important;
+    padding: 10px 0 !important;
+}
+
+/* 4. Headings - The "Technical Manual" look */
+h1, h2, h3 {
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+    border-bottom: var(--border-thick) !important;
+    padding-bottom: 5px !important;
+    margin-top: 2em !important;
+}
+
+/* 5. Modernist Tables - Heavy headers, thin body grid */
+table {
+    border: var(--border-thick) !important;
+    border-collapse: collapse !important;
+}
+
+th {
+    background-color: #000 !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    padding: 10px !important;
+    font-size: 0.8rem !important;
+}
+
+td {
+    border: var(--border-thin) !important;
+    padding: 12px !important;
+}
