@@ -16,28 +16,10 @@
 
 <div class="recipe-grid">
 
-<div class="grid-column">
-### MAINS
-`dataview
-LIST FROM "" 
-WHERE course = "main" AND dg-publish = true
-`
-</div>
+<div class="modernist-recipe-grid">
 
-<div class="grid-column">
-### SIDES & SNACKS
-`dataview
-LIST FROM "" 
-WHERE (course = "side" OR course = "snack") AND dg-publish = true
-`
-</div>
+- [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 
-<div class="grid-column">
-### DESSERTS
-`dataview
-LIST FROM "" 
-WHERE course = "dessert" AND dg-publish = true
-`
-</div>
+{ .block-language-dataview}
 
 </div>
