@@ -14,8 +14,6 @@
   </a>
 </div>
 
-<div class="recipe-grid">
-
 <div class="modernist-recipe-grid">
 
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
