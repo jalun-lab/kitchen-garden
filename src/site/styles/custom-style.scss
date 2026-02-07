@@ -241,3 +241,35 @@ b, strong {
 a {
     color: #000000 !important;
 }
+
+/* FORCE THREE COLUMN LIST */
+.modernist-recipe-grid ul {
+    column-count: 3 !important;
+    column-gap: 40px !important;
+    column-rule: 1px solid #eee; /* Optional subtle divider */
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 40px 0 !important;
+}
+
+.modernist-recipe-grid li {
+    break-inside: avoid; /* Prevents a link from splitting across columns */
+    margin-bottom: 12px !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.modernist-recipe-grid li a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.modernist-recipe-grid li a:hover {
+    background-color: #72dec2 !important;
+}
+
+/* Fix for the Dataview list headers if they appear */
+.modernist-recipe-grid .dataview.list-view-header {
+    display: none !important;
+}
