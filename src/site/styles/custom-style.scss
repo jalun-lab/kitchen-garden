@@ -211,3 +211,24 @@ a {
         column-count: 1 !important;
     }
 }
+
+/* Container for the grid */
+.two-column-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr; /* Exactly two equal columns */
+    gap: 20px;                      /* Spacing between items */
+    align-items: start;
+}
+
+/* Force items to wrap to a new row every 2 items */
+.two-column-grid > * {
+    margin: 0;
+    width: 100%;
+}
+
+/* Mobile Responsiveness: Switch to 1 column on small screens */
+@media (max-width: 600px) {
+    .two-column-grid {
+        grid-template-columns: 1fr;
+    }
+}
