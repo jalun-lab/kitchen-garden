@@ -106,23 +106,31 @@
     font-size: 0.9rem;
 }
 
-/* 4. MODERNIST RECIPE LIST (ROWS) */
+/* 4. MODERNIST RECIPE LIST (ROWS) - STRENGTHENED */
 .modernist-recipe-grid {
-    display: flex;
-    flex-direction: column;
+    display: block !important; /* Changed from flex to block */
+    max-width: 700px !important;
+    width: 100% !important;
     border-top: 3px solid black;
-    padding: 0 !important; /* Reset padding for full-width borders */
+    margin-top: 2rem;
+    padding: 0 !important;
 }
 
 .modernist-recipe-grid ul {
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    width: 100% !important;
+}
+
+.modernist-recipe-grid li {
+    width: 100% !important;
 }
 
 .modernist-recipe-grid a, .modernist-recipe-grid li a {
-    display: flex;
-    justify-content: space-between;
+    display: grid !important;
+    grid-template-columns: 1fr auto; /* Name takes all space, Arrow takes minimal */
+    gap: 15px;
     align-items: center;
     padding: 15px 10px;
     border-bottom: 3px solid black;
@@ -132,14 +140,19 @@
     font-weight: 700;
     text-transform: uppercase;
     transition: background-color 0.1s ease;
-    word-break: break-word;   /* Allows long words to break if necessary */
-    overflow-wrap: anywhere; /* Ensures text stays inside the box */
-    max-width: 100%;         /* Forces the link to respect the 700px parent */
+
+    /* THE FIXES */
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important; /* Prevents bleed */
 }
 
-.modernist-recipe-grid a:hover {
-    background-color: black !important;
-    color: white !important;
+/* Forces the text inside the link to wrap and respect the width */
+.modernist-recipe-grid a span, .modernist-recipe-grid li a span {
+    display: block;
+    word-break: break-word; /* Breaks long strings */
+    overflow-wrap: break-word;
+    min-width: 0; /* Essential fix for grid text overflow */
 }
 
 /* 5. GLOBAL TYPOGRAPHY & MOBILE */
