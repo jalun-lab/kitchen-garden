@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
 
-/* 1. VARIABLES & CORE RESET */
 :root {
     --bg: #ffffff !important;
     --text: #000000 !important;
@@ -8,8 +7,6 @@
     --font-family: 'JetBrains Mono', monospace !important;
     --border-thick: 3px solid #000 !important;
     --border-thin: 1px solid #000 !important;
-    
-    /* Template Overrides */
     --body-background: #ffffff !important;
     --text-normal: #000000 !important;
     --interactive-accent: #72dec2 !important;
@@ -22,17 +19,16 @@
 }
 
 html, body, .dg-stack, .dg-main-content {
-    background-color: #fff !important;
+    background-color: #ffffff !important;
     background-image: none !important;
-    color: #000 !important;
+    color: #000000 !important;
     font-family: var(--font-family) !important;
     -webkit-font-smoothing: none !important;
     font-variant-ligatures: none;
 }
 
-/* 2. NAVIGATION & HEADER */
 header, nav, .dg-nav, .nav-container {
-    background-color: #fff !important;
+    background-color: #ffffff !important;
     background-image: none !important;
     border-bottom: var(--border-thick) !important;
     box-shadow: none !important;
@@ -40,7 +36,7 @@ header, nav, .dg-nav, .nav-container {
 }
 
 .dg-nav a, .nav-container a, .header-title, .site-name, .breadcrumb a {
-    color: #000 !important;
+    color: #000000 !important;
     font-weight: 800 !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
@@ -50,19 +46,28 @@ header, nav, .dg-nav, .nav-container {
     background-color: var(--accent) !important;
 }
 
-/* 3. CONTENT CONTAINER */
 .dg-content-container {
     max-width: 850px !important;
     margin: 40px auto !important;
     border: var(--border-thick) !important;
-    box-shadow: 12px 12px 0px #000 !important;
+    box-shadow: 12px 12px 0px #000000 !important;
     padding: 40px !important;
-    background-color: #fff !important;
+    background-color: #ffffff !important;
 }
 
-/* 4. TYPOGRAPHY */
 body, p, td, li, .dg-content {
     font-size: 14px !important;
     line-height: 1.6 !important;
-    font-weight: 500;
-)
+    font-weight: 500 !important;
+}
+
+h1, h2, h3, h4, b, strong, th {
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+
+h1, h2, h3 {
+    border-bottom: var(--border-thick) !important;
+    padding-bottom: 5px !important;
+    margin-top: 1.5em !important;
