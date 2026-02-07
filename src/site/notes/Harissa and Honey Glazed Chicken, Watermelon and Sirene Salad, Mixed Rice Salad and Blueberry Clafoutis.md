@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/harissa-and-honey-glazed-chicken-watermelon-and-sirene-salad-mixed-rice-salad-and-blueberry-clafoutis/"}
 ---
 
-***Served to: *** *The Fishleys*
+***Served to:*** *The Fishleys*
 ***On:*** *07/02/2026*
 
 ### Equipment & Processing
