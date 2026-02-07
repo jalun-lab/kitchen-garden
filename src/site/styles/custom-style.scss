@@ -8,14 +8,12 @@
     --text-normal: #000000 !important;
     --text-muted: #444444 !important;
     --interactive-accent: #72dec2 !important; /* Grimgrains Mint */
-    --font-family: "Courier New", Courier, monospace !important;
 }
 
 /* 2. Force Background & Text */
 html, body, .dg-stack {
     background-color: white !important;
     color: black !important;
-    font-family: "Courier New", Courier, monospace !important;
     background-image: none !important; /* Removes any default gradients */
 }
 
@@ -29,11 +27,28 @@ html, body, .dg-stack {
 }
 
 /* 4. Headings - Clean & Bold */
-h1, h2, h3 {
+/* GRIMGRAINS TYPOGRAPHY UPGRADE */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
+
+:root {
+    /* JetBrains Mono is the closest free 'Modernist' alternative to Iosevka */
+    --font-family: 'JetBrains Mono', monospace !important;
+}
+
+body, p, td, li, .dg-content {
+    font-family: var(--font-family) !important;
+    font-weight: 500 !important; /* Not too thin, not too chunky */
+    font-size: 14px !important;
+    color: #000000 !important;
+    line-height: 1.5 !important;
+}
+
+/* Bold for emphasis and headers */
+h1, h2, h3, b, strong, th {
+    font-family: var(--font-family) !important;
+    font-weight: 800 !important;
     text-transform: uppercase !important;
-    border-bottom: 3px solid black !important;
-    padding-bottom: 5px !important;
-    letter-spacing: 1px !important;
 }
 
 /* 5. Modernist Table Styling */
