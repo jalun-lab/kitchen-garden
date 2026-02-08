@@ -21,3 +21,4 @@
 | **Xanthan Gum**       | **0.5g**     | **Process** on high. While running, **dust in** the xanthan gum. This emulsifies the remaining water and fiber into a glossy, thick "Silk." |
 | **Salt**              | **5g**       |                                                                                                                                             |
 | **Black Pepper**      | **to taste** |                                                                                                                                             |
+>[!tip] You can add nutritional yeast to taste here to make it a (sort of...) cheesy mash that you don't have to think twice about having three helpings of.
