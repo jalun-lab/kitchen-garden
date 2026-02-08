@@ -21,5 +21,5 @@
 | **Large Egg**         | **1 pc**     | **Blend** using **the Bamix Gastro** until it forms a frothy, pale green emulsion.                                                                         |
 | **Nutritional Yeast** | **10g**      | **Sauté** the spiralized zoodles in a dry pan for 2 mins just to warm them. **Turn off the heat**.                                                         |
 | **Black Pepper**      | **to taste** | Pour the egg/zucchini emulsion over the warm noodles. Toss vigorously. The residual heat will thicken the egg into a "creamy" sauce without scrambling it. |
-| **Garlic Powder**     | **1t**       |                                                                                                                                                            |
+| **Garlic**            | **1t**       |                                                                                                                                                            |
 | **Sea Salt**          | **to taste** |                                                                                                                                                            |
