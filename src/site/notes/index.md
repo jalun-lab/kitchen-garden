@@ -27,6 +27,7 @@
 
 - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+- [[_Archive/Zucchini Protein Fluff - v1 - 2026-02-08-1819\|Zucchini Protein Fluff - v1 - 2026-02-08-1819]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
 - [[Zucchini Silk\|Zucchini Silk]]
