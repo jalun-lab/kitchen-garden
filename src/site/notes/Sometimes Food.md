@@ -8,6 +8,7 @@ All the will in world, the [substitutions]([[Every Day Food\|Every Day Food]]) w
 <div class="modernist-recipe-grid">
 
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+- [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
 
 { .block-language-dataview}
 </div>
