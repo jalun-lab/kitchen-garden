@@ -29,6 +29,7 @@
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
+- [[Zucchini Silk\|Zucchini Silk]]
 - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
 - [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]]
 

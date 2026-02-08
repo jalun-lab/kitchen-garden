@@ -13,6 +13,7 @@ Some of these are complete meals, most are components or techniques. A lot of th
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
+- [[Zucchini Silk\|Zucchini Silk]]
 
 { .block-language-dataview}
 </div>
