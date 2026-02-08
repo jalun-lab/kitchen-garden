@@ -6,8 +6,12 @@ My new year's resolution for 2026, inspired by this, is to host a dinner every o
 
 So every other Saturday in 2026 I'll host a lunch and post the menu here, along with comments about what worked, what didn't, how easy the prep and cook was and how strong the response was.
 
+<div class="modernist-recipe-grid">
+
 | Saturday Menus                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]] |
 
 { .block-language-dataview}
+
+</div>
