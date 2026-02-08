@@ -13,6 +13,7 @@ Some of these are complete meals, most are components or techniques. A lot of th
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[_Archive/Zucchini Protein Fluff - v1 - 2026-02-08-1819\|Zucchini Protein Fluff - v1 - 2026-02-08-1819]]
+- [[_Archive/Zucchini Protein Fluff - v2 - 2026-02-08-1838\|Zucchini Protein Fluff - v2 - 2026-02-08-1838]]
 - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Zucchini Silk\|Zucchini Silk]]
 
