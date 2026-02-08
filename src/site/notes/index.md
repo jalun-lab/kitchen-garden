@@ -26,10 +26,11 @@
 <div class="modernist-recipe-grid">
 
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+- [[Zucchini Carbonara\|Zucchini Carbonara]]
+- [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Zucchini Silk\|Zucchini Silk]]
-- [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
-- [[Zucchini Carbonara\|Zucchini Carbonara]]
+- [[Boom Sauce - Classic and Umami\|Boom Sauce - Classic and Umami]]
 - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
 - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
 
