@@ -4,22 +4,22 @@
 
 <div class="homepage-categories">
   <a href="/every-day-food" class="category-item">
-    <img src="https://grimgrains.com/media/ingredients/lentils.png" alt="Lentils">
+    <img src="/img/everydayfood.jpg" alt="everydayeating">
     <div class="category-title">Every Day Food</div>
   </a>
 
   <a href="/sometimes-food" class="category-item">
-    <img src="https://grimgrains.com/media/ingredients/turmeric_root.png" alt="Turmeric">
+    <img src="/img/sometimesfood.jpg" alt="Sometimesfood">
     <div class="category-title">Sometimes Food</div>
   </a>
 
 <a href="/saturday-menus" class="category-item">
-    <img src="https://grimgrains.com/media/ingredients/lentils.png" alt="Lentils">
+    <img src="/img/saturdaymenu.jpg" alt="dinnerpartymenus">
     <div class="category-title">Saturday Menus</div>
   </a>
-<a href="/every-day-food" class="category-item">
-    <img src="https://grimgrains.com/media/ingredients/lentils.png" alt="Lentils">
-    <div class="category-title">Every Day Food</div>
+<a href="/batch-cooking" class="category-item">
+    <img src="/img/batchcooking.jpg" alt="batchcooking">
+    <div class="category-title">Batch Cooking</div>
   </a>
 </div>
 
