@@ -10,9 +10,9 @@ Some of these are complete meals, most are components or techniques. A lot of th
 
 <div class="modernist-recipe-grid">
 
-- [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+- [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 
 { .block-language-dataview}
 </div>
