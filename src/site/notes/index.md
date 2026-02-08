@@ -25,16 +25,31 @@
 
 <div class="modernist-recipe-grid">
 
-- [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
-- [[Zucchini Carbonara\|Zucchini Carbonara]]
-- [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
-- [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
-- [[Zucchini Silk\|Zucchini Silk]]
-- [[Boom Sauce - Classic and Umami\|Boom Sauce - Classic and Umami]]
-- [[Boom Sauce - Afterburn\|Boom Sauce - Afterburn]]
-- [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
-- [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
-- [[Boom Sauce - Second Degree\|Boom Sauce - Second Degree]]
+- breakfast: 
+    - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
+
+- component: 
+    - [[Tomato Base Sauce\|Tomato Base Sauce]]
+
+- dessert: 
+    - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+    - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
+    - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+
+- main: 
+    - [[Zucchini Carbonara\|Zucchini Carbonara]]
+
+- sauce: 
+    - [[Boom Sauce - Afterburn\|Boom Sauce - Afterburn]]
+    - [[Boom Sauce - Classic and Umami\|Boom Sauce - Classic and Umami]]
+    - [[Boom Sauce - Second Degree\|Boom Sauce - Second Degree]]
+
+- side: 
+    - [[Zucchini Silk\|Zucchini Silk]]
+
+- snack: 
+    - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
+
 
 { .block-language-dataview}
 
