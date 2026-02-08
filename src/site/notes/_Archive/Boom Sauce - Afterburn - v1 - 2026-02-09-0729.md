@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/boom-sauce-afterburn/","tags":["sauce"]}
+{"dg-publish":true,"permalink":"/archive/boom-sauce-afterburn-v1-2026-02-09-0729/","tags":["sauce"]}
 ---
 
 
@@ -23,4 +23,3 @@ version: 2
 --- 
 **Revision History:**
 * [v1 Archive](_Archive/Boom Sauce - Afterburn - v1 - 2026-02-06-1115.md) - 2026-02-06-1115
-* [v1 Archive](_Archive/Boom Sauce - Afterburn - v1 - 2026-02-09-0729.md) - 2026-02-09-0729 - corrected pressure cooker time
