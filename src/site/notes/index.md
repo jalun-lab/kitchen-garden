@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recupes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
 ---
 
 <div class="homepage-categories">
