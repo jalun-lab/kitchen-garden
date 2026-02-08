@@ -27,6 +27,9 @@
 
 - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+- [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+- [[Zucchini Carbonara\|Zucchini Carbonara]]
+- [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
 - [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]]
 
 { .block-language-dataview}
