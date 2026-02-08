@@ -37,17 +37,20 @@
     filter: grayscale(100%) contrast(1.2);
 }
 
-/* If the logo image fails/doesn't exist, this styles the site name text */
 .placeholder-logo, .site-name {
     display: inline-block;
-    border: 3px solid #000;
-    padding: 8px 18px;
-    font-weight: 800;
-    font-family: 'JetBrains Mono', monospace;
-    letter-spacing: 2px;
+    width: 200px; /* Adjust to your logo's width */
+    height: 80px; /* Adjust to your logo's height */
+    
+    /* THE TRICK: Replace text with image */
+    background-image: url('https://grimgrains.com/site/home.html'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: -9999px; /* This hides the "Kitchen Garden" text but keeps the image */
+    
+    border: none !important; /* Removes the box if the image is working */
     margin-bottom: 20px;
-    text-decoration: none !important;
-    color: #000 !important;
 }
 
 .grimgrains-nav {
