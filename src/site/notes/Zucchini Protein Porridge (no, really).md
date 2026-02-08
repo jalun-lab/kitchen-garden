@@ -54,13 +54,14 @@ Nought more than a saucepan and a stirry thing.
 ---
 
 ### Ingredients and Method
-| **Ingredient**         | **Weight** | **Method**                                                                                                              |
-| ---------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Zucchini** ( Grated) | **200g**   | **Grate** the zucchini.                                                                                                 |
-| **Rolled Oats**        | **30g**    | **Combine** the zucchini, oats, and almond milk in a saucepan.                                                          |
-| **Almond Milk**        | **130g**   | **Simmer** over medium heat for 5 minutes, stirring constantly until the oats and zucchini form a thick, cohesive base. |
-| **Ginger Paste**       | **5g**     | **Stir** in the ginger, vanilla, and allulose. Remove from the heat.                                                    |
-| **Vanilla Extract**    | **2g**     | ^                                                                                                                       |
-| **Allulose**           | **20g**    | ^                                                                                                                       |
-| **Raw Casein Protein** | **30g**    | **Add** the casein to the warm mixture. **Immediately** use **the Sunbeam hand beater** on high speed for 60 seconds.   |
-| **Blueberries**        | **150g**   | **Watch** as the mixture aerates and doubles in volume. The casein will turn it into a thick, marshmallow-like mousse.  |
+| **Ingredient**         | **Weight** | **Method**                                                                                                                                                                                                       |
+| ---------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Zucchini** ( Grated) | **250g**   | **Grate** the zucchini.                                                                                                                                                                                          |
+| **Rolled Oats**        | **30g**    | **Combine** the zucchini, oats, and almond milk in a saucepan.                                                                                                                                                   |
+| **Almond Milk**        | **150g**   | **Simmer** over medium heat for 5 minutes, stirring constantly until the oats and zucchini form a thick, cohesive base.                                                                                          |
+| **GingerJuice/Paste**  | **5g**     | **Stir** in the ginger, vanilla, and allulose. Remove from the heat.                                                                                                                                             |
+| **Vanilla Extract**    | **5g**     | ^                                                                                                                                                                                                                |
+| **Allulose**           | **20g**    | ^                                                                                                                                                                                                                |
+| **Light Ricotta**      | **50g**    | Stir in the ricotta.                                                                                                                                                                                             |
+| **Raw Casein Protein** | **30g**    | **Add** the casein to the warm mixture. **Immediately** use **the Sunbeam hand beater** on high speed for 60 seconds if you can be bothered - it'll whip up some volume. Otherwise stir vigorously with a spoon. |
+| **Blueberries**        | **150g**   | **Watch** as the mixture aerates and doubles in volume. The casein will turn it into a thick, marshmallow-like mousse.                                                                                           |
