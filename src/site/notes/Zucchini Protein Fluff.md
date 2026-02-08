@@ -17,5 +17,5 @@
 | **Frozen Zucchini**    | **150g**   | **Pre-grate** zucchini using **the Magimix** (fine disc) and **freeze** in a flat bag. **Break** the frozen sheet into chunks. |
 | **Casein Protein**     | **30g**    | **Place** frozen zucchini chunks, casein, and allulose into a large chilled bowl.                                              |
 | **Allulose**           | **20g**    | **Add** a tiny splash (20ml) of cold almond milk.                                                                              |
-| **Almond Milk** (Cold) | **20ml**   | **Use the Sunbeam hand beater** on low to break up the ice, then **crank to high**.                                            |
+| **Almond Milk** (Cold) | **20ml**   | **Use the Bamix** on low to break up the ice, then **crank to high**.                                                          |
 | **Vanilla Extract**    | **2g**     | **Whip** for 5 full minutes. The ice crystals and casein will aerate into a "fluff" that fills a 2L bowl.                      |
