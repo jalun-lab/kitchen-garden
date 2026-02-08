@@ -14,7 +14,7 @@
 .header-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centers the 700px container on the screen */
     background-color: #fff;
 }
 
@@ -25,57 +25,31 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligns logo and nav to the left */
+    align-items: center; /* THIS CENTERS THE LOGO AND NAV LINKS */
+    text-align: center;
 }
 
-/* This targets the actual logo image from the plugin */
-.grimgrains-header img, .logo-container img {
-    max-height: 80px !important;
-    width: auto !important;
-    display: block !important;
+/* Updated logo styling for centering */
+.placeholder-logo, .site-name, .navbar-brand {
+    display: inline-block !important;
+    width: 200px; 
+    height: 80px;
+    background-image: url('https://grimgrains.com/media/interface/logo.png') !important; 
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; /* Center the image inside the box */
+    text-indent: -9999px !important;
+    overflow: hidden !important;
     margin-bottom: 20px;
-    filter: grayscale(100%) contrast(1.2);
-}
-
-.placeholder-logo, .site-name {
-    display: inline-block;
-    width: 200px; /* Adjust to your logo's width */
-    height: 80px; /* Adjust to your logo's height */
-    
-    /* THE TRICK: Replace text with image */
-    background-image: url('https://grimgrains.com/media/interface/logo.png'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left center;
-    text-indent: -9999px; /* This hides the "Kitchen Garden" text but keeps the image */
-    
-    border: none !important; /* Removes the box if the image is working */
-    margin-bottom: 20px;
+    border: none !important; /* Remove the red debug border */
 }
 
 .grimgrains-nav {
     width: 100%;
     border-bottom: 2px solid #000;
     margin-bottom: 20px;
-}
-
-.nav-links {
     display: flex;
-    gap: 30px;
-}
-
-.nav-item {
-    text-decoration: none !important;
-    color: #000 !important;
-    font-weight: 800 !important;
-    font-size: 0.9rem;
-    padding-bottom: 10px;
-    position: relative;
-    top: 2px;
-}
-
-.nav-item:hover, .nav-item.active {
-    border-bottom: 5px solid #000;
+    justify-content: center; /* Centers the nav links */
 }
 
 /* 3. HOMEPAGE CATEGORY GRID (2-COLUMN) */
