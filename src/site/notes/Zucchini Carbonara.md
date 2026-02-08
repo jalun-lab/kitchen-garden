@@ -22,6 +22,6 @@
 | **Nutritional Yeast** | **10g**      | **Sauté** the spiralized zoodles in a dry pan for 2 mins just to warm them. **Turn off the heat**.                                                         |
 | **Black Pepper**      | **to taste** | Pour the egg/zucchini emulsion over the warm noodles. Toss vigorously. The residual heat will thicken the egg into a "creamy" sauce without scrambling it. |
 | **Garlic**            | **1t**       |                                                                                                                                                            |
-| **Sea Salt**          | **to taste** |                                                                                                                                                            |
+| **Sea Salt**          | **to taste** |                                                                                                                                                             |
 
->[!tip] The nutritional yeast will have a tremendous impact on flavour and aroma - make sure it's one that you like. If you're not trying to keep calories as low as feasible, just use parmesan. It's way better.
+>[!tip] The nutritional yeast will have a tremendous impact on flavour and aroma - make sure it's one that you like. If you're not trying to keep calories as low as feasible, just use parmesan. It's way better. Or Gran Padano.
