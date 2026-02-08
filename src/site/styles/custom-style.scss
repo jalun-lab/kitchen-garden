@@ -14,7 +14,7 @@
 .header-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center; /* Centers the 700px container on the screen */
+    justify-content: center; /* This centers the column on the screen */
     background-color: #fff;
 }
 
@@ -25,11 +25,10 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* THIS CENTERS THE LOGO AND NAV LINKS */
-    text-align: center;
+    align-items: flex-start; /* Logo and Nav stay left-aligned within the 700px */
 }
 
-/* Updated logo styling for centering */
+/* Logo box - restored left alignment */
 .placeholder-logo, .site-name, .navbar-brand {
     display: inline-block !important;
     width: 200px; 
@@ -37,21 +36,39 @@
     background-image: url('https://grimgrains.com/media/interface/logo.png') !important; 
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    background-position: center !important; /* Center the image inside the box */
+    background-position: left center !important; 
     text-indent: -9999px !important;
     overflow: hidden !important;
-    margin-bottom: 20px;
-    border: none !important; /* Remove the red debug border */
+    margin-bottom: 25px;
+    border: none !important;
 }
 
 .grimgrains-nav {
     width: 100%;
     border-bottom: 2px solid #000;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: center; /* Centers the nav links */
 }
 
+.nav-links {
+    display: flex;
+    gap: 30px; /* Restored original spacing */
+}
+
+.nav-item {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: 800 !important; /* Force heavy weight */
+    font-size: 0.9rem;
+    font-family: 'JetBrains Mono', monospace; /* Restored technical font */
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.nav-item:hover, .nav-item.active {
+    border-bottom: 5px solid #000;
+}
 /* 3. HOMEPAGE CATEGORY GRID (2-COLUMN) */
 .homepage-categories {
     display: grid !important;
