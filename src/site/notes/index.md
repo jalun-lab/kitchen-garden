@@ -25,15 +25,13 @@
 
 <div class="modernist-recipe-grid">
 
-- [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
-- [[_Archive/Zucchini Protein Fluff - v1 - 2026-02-08-1819\|Zucchini Protein Fluff - v1 - 2026-02-08-1819]]
-- [[_Archive/Zucchini Protein Fluff - v2 - 2026-02-08-1838\|Zucchini Protein Fluff - v2 - 2026-02-08-1838]]
+- [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
+- [[Zucchini Silk\|Zucchini Silk]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
-- [[Zucchini Silk\|Zucchini Silk]]
+- [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
 - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
-- [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]]
 
 { .block-language-dataview}
 
