@@ -26,27 +26,27 @@
 <div class="modernist-recipe-grid">
 
 - breakfast: 
-    - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
+    - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]] <span class='tag-inline'>#LOW-CAL</span>
 
-- component: 
-    - [[Tomato Base Sauce\|Tomato Base Sauce]]
+- main: 
+    - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]] <span class='tag-inline'>#LOW-CAL</span>
+    - [[Zucchini Carbonara\|Zucchini Carbonara]] <span class='tag-inline'>#LOW-CAL</span>
+
+- side: 
+    - [[Zucchini Silk\|Zucchini Silk]] <span class='tag-inline'>#LOW-CAL</span>
 
 - dessert: 
     - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
-    - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
-
-- main: 
-    - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
-    - [[Zucchini Carbonara\|Zucchini Carbonara]]
+    - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]] <span class='tag-inline'>#LOW-CAL</span>
 
 - sauce: 
     - [[Boom Sauce - Afterburn\|Boom Sauce - Afterburn]]
     - [[Boom Sauce - Classic and Umami\|Boom Sauce - Classic and Umami]]
     - [[Boom Sauce - Second Degree\|Boom Sauce - Second Degree]]
 
-- side: 
-    - [[Zucchini Silk\|Zucchini Silk]]
+- component: 
+    - [[Tomato Base Sauce\|Tomato Base Sauce]]
 
 - snack: 
     - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
