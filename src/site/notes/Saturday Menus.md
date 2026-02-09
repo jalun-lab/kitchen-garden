@@ -8,7 +8,6 @@ So every other Saturday in 2026 I'll host a lunch and post the menu here, along 
 
 <div class="modernist-recipe-grid">
 
-- [[_Templates/_Saturday-menu-yaml\|_Saturday-menu-yaml]]
 - [[Fishleys\|Fishleys]]
 
 { .block-language-dataview}
