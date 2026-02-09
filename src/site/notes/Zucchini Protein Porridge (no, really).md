@@ -65,3 +65,4 @@ Nought more than a saucepan and a stirry thing.
 | **Light Ricotta**      | **50g**    | Stir in the ricotta.                                                                                                                                                                                             |
 | **Raw Casein Protein** | **30g**    | **Add** the casein to the warm mixture. **Immediately** use **the Sunbeam hand beater** on high speed for 60 seconds if you can be bothered - it'll whip up some volume. Otherwise stir vigorously with a spoon. |
 | **Blueberries**        | **150g**   | **Watch** as the mixture aerates and doubles in volume. The casein will turn it into a thick, marshmallow-like mousse.                                                                                           |
+>[!info] Stir in some light ricotta or chobani-type yoghurt to increase the protein, creaminess and volume even more.
