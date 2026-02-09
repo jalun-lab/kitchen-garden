@@ -46,12 +46,12 @@
     - [[Boom Sauce - Second Degree\|Boom Sauce - Second Degree]]
 
 - side: 
-    - [[Zucchini Silk\|Zucchini Silk]]
     - [[Fancy Garlic Toast\|Fancy Garlic Toast]]
+    - [[Zucchini Silk\|Zucchini Silk]]
 
 - snack: 
-    - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
     - [[Yoghurt Muesli Bar\|Yoghurt Muesli Bar]]
+    - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
 
 
 { .block-language-dataview}

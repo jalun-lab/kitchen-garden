@@ -22,6 +22,7 @@
 ---
 
 ### Ingredients and Method
+#### Pork Ribs
 
 | **Ingredient**           | **Mass (g)** | **Method**                                                                                                                          |
 | ------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,6 +35,9 @@
 | **Black Pepper**         | 8g           | **7. Lacquer:** Brush glaze heavily. Use **the [[MAAP Gas Blowtorch\|MAAP Gas Blowtorch]]** to lacquer the ribs until bubbling and charred.             |
 | **Orange Zest / Ginger** | 22g / 30g    |                                                                                                                                     |
 
+#### Chipotle Orange Glaze
+
+
 </div></div>
 
 
@@ -44,6 +48,21 @@
 
 
 
+
+* **Comments**: 
+* **Serving Notes**: 
+
+---
+
+### Ingredients and Method
+
+|**Ingredient**|**Mass (g)**|**Method**|
+|---|---|---|
+|**Butternut Squash**|1500g|**1. T-24h:** Roast squash (200°C) and spiced nuts. Cool and store.|
+|**Lacinato Kale**|375g|**2. Kale:** Massage with oil/salt. Dehydrate in **the Benchfoods Dehydrator** (55°C) for 6h until brittle. Store airtight.|
+|**A2 Feta Cheese**|150g|**3. Vinaigrette:** Emulsify oil, maple, mustard, lime, and shallot using **the Bamix**.|
+|**Olive Oil / Maple**|180g / 45g|**4. Service:** Temper squash to room temp. Toss with dressing, currants, and crumbled feta.|
+|**Pecans / Currants**|375g / 300g|**5. Final Step:** Fold in the brittle kale chips just before the plates go to the table.|
 
 </div></div>
 
@@ -82,6 +101,25 @@
 
 
 
+* **Comments**: 
+* **Serving Notes**: 
+
+---
+
+### Ingredients and Method
+|**Ingredient**|**Mass (g)**|**Method**|
+|---|---|---|
+|**A2 Unsalted Butter**|255g|**1.** Preheat oven to 175°C. Grease **the Mondo round cake pan** and line the base with parchment.|
+|**Hot Brewed Coffee**|180g|**2.** Melt butter in a saucepan. Whisk in coffee and cocoa until smooth. Remove from heat.|
+|**Dutch-Process Cocoa**|53g|**3.** Using **the Sunbeam hand beater**, whisk in the sugar.|
+|**Granulated Sugar**|450g|**4.** Add eggs, A2 sour cream, and vanilla. Whisk until the batter is glossy and fully emulsified.|
+|**Large Eggs** (A2/Organic)|150g (3 ea)|**5.** Measure flour, baking soda, and salt on **the micro scales**. Sift into the wet mixture.|
+|**A2 Sour Cream**|270g|**6.** Fold with the beater on low speed until just combined.|
+|**Vanilla Extract**|12g|**7.** Pour into the pan. Bake for **55–65 minutes**. The increased depth requires a longer bake than the original recipe.|
+|**All-Purpose Flour**|285g|**8.** Cool in the pan for 20 minutes before inverting.|
+|**Baking Soda**|8g||
+|**Fine Sea Salt**|3g||
+
 </div></div>
  with 
 
@@ -90,6 +128,13 @@
 
 
 
+
+* **Comments**: 
+* **Serving Notes**: 
+
+---
+
+### Ingredients and Method
 
 </div></div>
  and 
