@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomato-base-sauce/","tags":["batch-cook","component"]}
+{"dg-publish":true,"permalink":"/tomato-base-sauce/","tags":["batch-cook","component","low-cal"]}
 ---
 
 This 'base' sauce gets used as a component in a bajillion other recipes. It's extremely versatile: below is really just a guideline. Use whatever veges you have in abundance and blend them in. At the time of writing that means zucchini, blended in, becomes a great invisible vegetable sauce for the kids.
