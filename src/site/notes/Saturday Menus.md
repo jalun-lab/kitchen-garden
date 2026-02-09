@@ -8,7 +8,8 @@ So every other Saturday in 2026 I'll host a lunch and post the menu here, along 
 
 <div class="modernist-recipe-grid">
 
-- [[Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis\|Harissa and Honey Glazed Chicken, Watermelon and Sirene Salad, Mixed Rice Salad and Blueberry Clafoutis]]
+- [[_Templates/_Saturday-menu-yaml\|_Saturday-menu-yaml]]
+- [[Fishleys\|Fishleys]]
 
 { .block-language-dataview}
 

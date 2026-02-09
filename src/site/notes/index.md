@@ -38,6 +38,7 @@
 
 - main: 
     - [[Zucchini Carbonara\|Zucchini Carbonara]]
+    - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
 
 - sauce: 
     - [[Boom Sauce - Afterburn\|Boom Sauce - Afterburn]]

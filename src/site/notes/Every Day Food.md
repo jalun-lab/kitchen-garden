@@ -10,6 +10,7 @@ Some of these are complete meals, most are components or techniques. A lot of th
 
 <div class="modernist-recipe-grid">
 
+- [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
 - [[Zucchini Carbonara\|Zucchini Carbonara]]
 - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 - [[_Archive/Zucchini Protein Fluff - v1 - 2026-02-08-1819\|Zucchini Protein Fluff - v1 - 2026-02-08-1819]]
