@@ -258,3 +258,17 @@ a[href^="#/tag/"] {
 a[href^="#/tag/"]::before {
     content: "" !important;
 }
+
+/* 8. Homepage inline tags */
+.tag-inline {
+    font-size: 0.65em;
+    font-weight: 800;
+    color: #666; /* Grey so it's subtle, or use 'black' for high contrast */
+    border: 1px solid #666;
+    padding: 1px 4px;
+    margin-left: 10px;
+    vertical-align: middle;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
+}
+
