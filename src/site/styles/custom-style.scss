@@ -259,16 +259,87 @@ a[href^="#/tag/"]::before {
     content: "" !important;
 }
 
-/* 8. Homepage inline tags */
-.tag-inline {
-    font-size: 0.65em;
-    font-weight: 800;
-    color: #666; /* Grey so it's subtle, or use 'black' for high contrast */
-    border: 1px solid #666;
-    padding: 1px 4px;
-    margin-left: 10px;
-    vertical-align: middle;
-    letter-spacing: 0.05em;
-    border-radius: 2px;
+// /* 8. Homepage inline tags */
+// .tag-inline {
+//     font-size: 0.65em;
+//     font-weight: 800;
+//     color: #666; /* Grey so it's subtle, or use 'black' for high contrast */
+//     border: 1px solid #666;
+//     padding: 1px 4px;
+//     margin-left: 10px;
+//     vertical-align: middle;
+//     letter-spacing: 0.05em;
+//     border-radius: 2px;
+// }
+
+/* 1. RESET TABLE DEFAULTS */
+.modernist-recipe-grid table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
 }
 
+.modernist-recipe-grid thead {
+    display: none !important; /* Hide "Recipes" header */
+}
+
+.modernist-recipe-grid tr, 
+.modernist-recipe-grid td {
+    display: block !important; /* Force table cells to stack like list items */
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* 2. RE-APPLY ROW STYLING */
+/* This targets the individual recipe links within the table cells */
+.modernist-recipe-grid td ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modernist-recipe-grid td li {
+    border-bottom: 3px solid black !important;
+    display: flex !important;
+    width: 100% !important;
+}
+
+.modernist-recipe-grid td a.internal-link {
+    display: inline-flex !important; /* Changed to flex to keep tag inline */
+    align-items: center !important;
+    flex: 1 !important;
+    padding: 18px 15px !important;
+    text-decoration: none !important;
+    color: black !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4 !important;
+    transition: background-color 0.1s ease;
+}
+
+.modernist-recipe-grid td a.internal-link:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.modernist-recipe-grid td a.internal-link:hover .tag-inline {
+    color: black !important;
+    background-color: white !important; /* Invert tag on hover for legibility */
+}
+
+/* 3. THE INLINE TAG */
+.tag-inline {
+    font-size: 0.6rem !important;
+    font-weight: 900 !important;
+    color: white !important;
+    background-color: #666;
+    padding: 2px 6px !important;
+    margin-left: 12px !important;
+    letter-spacing: 0.05em !important;
+    white-space: nowrap !important;
+}
