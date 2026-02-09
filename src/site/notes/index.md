@@ -37,8 +37,8 @@
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 
 - main: 
-    - [[Zucchini Carbonara\|Zucchini Carbonara]]
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
+    - [[Zucchini Carbonara\|Zucchini Carbonara]]
 
 - sauce: 
     - [[Boom Sauce - Afterburn\|Boom Sauce - Afterburn]]
@@ -50,6 +50,7 @@
 
 - snack: 
     - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
+    - [[Yoghurt Muesli Bar\|Yoghurt Muesli Bar]]
 
 
 { .block-language-dataview}
