@@ -47,6 +47,7 @@
 
 - side: 
     - [[Zucchini Silk\|Zucchini Silk]]
+    - [[Fancy Garlic Toast\|Fancy Garlic Toast]]
 
 - snack: 
     - [[Zucchini 'Slice' Muffins\|Zucchini 'Slice' Muffins]]
