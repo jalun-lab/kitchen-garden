@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/zucchini-protein-porridge-no-really/","tags":["low-cal"]}
 ---
 
-It is the ultimate "trust the process" meal. At face value, it sounds like something served in a Dickensian orphanage, but the chemistry of the ingredients turns it into a functional masterpiece.
+  It is the ultimate "trust the process" meal. At face value, it sounds like something served in a Dickensian orphanage, but the chemistry of the ingredients turns it into a functional masterpiece.
 
 Here is a breakdown of why this works and how they transform "gross" into "no shit, this is *delicious*."
 

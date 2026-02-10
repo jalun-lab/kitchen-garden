@@ -29,10 +29,12 @@
     - [[Zucchini Protein Porridge (no, really)\|Zucchini Protein Porridge (no, really)]]
 
 - component: 
+    - [[Quick Condensed Milk\|Quick Condensed Milk]]
     - [[Tomato Base Sauce\|Tomato Base Sauce]]
 
 - dessert: 
     - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+    - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 

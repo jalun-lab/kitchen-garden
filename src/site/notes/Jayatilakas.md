@@ -107,18 +107,18 @@
 ---
 
 ### Ingredients and Method
-|**Ingredient**|**Mass (g)**|**Method**|
-|---|---|---|
-|**A2 Unsalted Butter**|255g|**1.** Preheat oven to 175°C. Grease **the Mondo round cake pan** and line the base with parchment.|
-|**Hot Brewed Coffee**|180g|**2.** Melt butter in a saucepan. Whisk in coffee and cocoa until smooth. Remove from heat.|
-|**Dutch-Process Cocoa**|53g|**3.** Using **the Sunbeam hand beater**, whisk in the sugar.|
-|**Granulated Sugar**|450g|**4.** Add eggs, A2 sour cream, and vanilla. Whisk until the batter is glossy and fully emulsified.|
-|**Large Eggs** (A2/Organic)|150g (3 ea)|**5.** Measure flour, baking soda, and salt on **the micro scales**. Sift into the wet mixture.|
-|**A2 Sour Cream**|270g|**6.** Fold with the beater on low speed until just combined.|
-|**Vanilla Extract**|12g|**7.** Pour into the pan. Bake for **55–65 minutes**. The increased depth requires a longer bake than the original recipe.|
-|**All-Purpose Flour**|285g|**8.** Cool in the pan for 20 minutes before inverting.|
-|**Baking Soda**|8g||
-|**Fine Sea Salt**|3g||
+| **Ingredient**          | **Mass (g)** | **Method**                                                                                                                 |
+| ----------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **Unsalted Butter**     | 255g         | **1.** Preheat oven to 175°C. Grease **the Mondo round cake pan** and line the base with parchment.                        |
+| **Hot Brewed Coffee**   | 180g         | **2.** Melt butter in a saucepan. Whisk in coffee and cocoa until smooth. Remove from heat.                                |
+| **Dutch-Process Cocoa** | 55g          | **3.** Using **the Sunbeam hand beater**, whisk in the sugar.                                                              |
+| **Granulated Sugar**    | 450g         | **4.** Add eggs, A2 sour cream, and vanilla. Whisk until the batter is glossy and fully emulsified.                        |
+| **Large Eggs**          | 150g (3 ea)  | **5.** Measure flour, baking soda, and salt on **the micro scales**. Sift into the wet mixture.                            |
+| **Sour Cream**          | 270g         | **6.** Fold with the beater on low speed until just combined.                                                              |
+| **Vanilla Extract**     | 12g          | **7.** Pour into the pan. Bake for **55–65 minutes**. The increased depth requires a longer bake than the original recipe. |
+| **All-Purpose Flour**   | 285g         | **8.** Cool in the pan for 20 minutes before inverting.                                                                    |
+| **Baking Soda**         | 8g           | ^                                                                                                                          |
+| **Fine Sea Salt**       | 3g           | ^                                                                                                                          |
 
 </div></div>
  with 
