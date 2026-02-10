@@ -73,19 +73,25 @@
 
 
 
-**3. Watermelon & Feta Salad**
 
+
+* **Comments**: 
+* **Serving Notes**: 
+
+---
+
+### Ingredients and Method
 >[!tip]Another absolute win. I froze the Sirene solid and grated it with a box grater. Superb.
 
 **Yield:** Approx. 1.4kg
 
-| **Ingredients** |                               | **Method**                                                                                                        |
-| --------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Base**        | 1.2kg Watermelon cubes        1. Take adult portions and compress in the [[Equipment/Chamber Vacuum\|Chamber Vacuum]] sealer. Drain the rest in a colander. |
-|                 | 180g Sirene (brined Sheeps' cheese, from Woolies in the green tub) or Feta cheese, cubed       | 2. Whisk lime juice and olive oil.                                                                  |
-| **Finishers**   | 3 tbsp Lime juice             | 3. Combine all watermelon. Drizzle with dressing. Gently fold in feta and torn mint.                 |
-|                 | 3 tbsp Extra-virgin olive oil |                                                                                                                   |
-|                 | 1 cup Fresh mint leaves, torn |                                                                                                                   |
+| **Ingredients** |                                                                                          | **Method**                                                                                                                 |
+| --------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Base**        | 1.2kg Watermelon cubes                                                                   | 1. Cube the watermelong and compress in the [[Equipment/Chamber Vacuum\|Chamber Vacuum]] sealer.                                                     |
+|                 | 180g Sirene (brined Sheeps' cheese, from Woolies in the green tub) or Feta cheese, cubed | 2. Whisk lime juice and olive oil.                                                                                         |
+| **Finishers**   | 3 tbsp Lime juice                                                                        | 3. Combine all watermelon. Drizzle with dressing. Add half the sirene snow and toss, then cover with the remaining sirene. |
+|                 | 3 tbsp Extra-virgin olive oil                                                            | ^                                                                                                                          |
+|                 | 1 cup Fresh mint leaves, torn                                                            | ^                                                                                                                          |
 
 
 </div></div>

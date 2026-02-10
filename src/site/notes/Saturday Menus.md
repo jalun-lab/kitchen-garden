@@ -12,32 +12,137 @@ So every other Saturday in 2026 I'll host a lunch and post the menu here, along 
 - [[Jayatilakas\|Jayatilakas]]
 
 { .block-language-dataview}
+</div>
+<div class="modernist-menu-grid">
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Amuse Bouche</th>
+        <th>Main</th>
+        <th>Sides</th>
+        <th>Dessert</th>
+        <th>Dietary Curses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Feb 7, 2026</td>
+        <td>Fishleys</td>
+        <td>Foccaccia and Hummus</td>
+        <td>[[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]</td>
+        <td>[[Watermelon and Sirene Snow Salad\|Watermelon and Sirene Snow Salad]], [[Mixed Rice Sour Cherry Salad\|Mixed Rice Sour Cherry Salad]]</td>
+        <td>[[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]], Whipped Cream, [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]</td>
+        <td>none</td>
+      </tr>
+      <tr>
+        <td>Feb 21, 2026</td>
+        <td>Jayatilakas</td>
+        <td></td>
+        <td>[[Chipotle Orange Pork Ribs\|Chipotle Orange Pork Ribs]]</td>
+        <td>[[Roast Butternut and Kale Salad\|Roast Butternut and Kale Salad]], [[Mixed Rice Sour Cherry Salad\|Mixed Rice Sour Cherry Salad]]</td>
+        <td>[[Sour Cream Chocolate Cake\|Sour Cream Chocolate Cake]], [[Raspberry and Hibiscus Sorbet\|Raspberry and Hibiscus Sorbet]] and [[Rich Custard\|Rich Custard]]</td>
+        <td>A2 Dairy</td>
+      </tr>
+      <tr>
+        <td>Mar 7, 2026</td>
+        <td>Belousaffs</td>
+        <td></td>
+        <td>[[Smash Burgers\|Smash Burgers]] in [[Lepinja\|Lepinja]] with [[Urnebes\|Urnebes]]</td>
+        <td>[[Shopska\|Shopska]] (salad) and [[Pečen Krumpir\|Pečen Krumpir]] (potatoes)</td>
+        <td>[[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]] and [[Tikvarnik (Macedonian Pumpkin Pie)\|Tikvarnik (Macedonian Pumpkin Pie)]] Mille Feulle</td>
+        <td>none</td>
+      </tr>
+      <tr>
+        <td>Mar 21, 2026</td>
+        <td>Harpers</td>
+        <td></td>
+        <td>Brisket or [[Chuck 'BBQ'\|Chuck 'BBQ']]</td>
+        <td>[[Tangy Slaw\|Tangy Slaw]], [[Pomme Puree\|Pomme Puree]]</td>
+        <td>[[Orange and Saffron Flan\|Orange and Saffron Flan]]</td>
+        <td>Gluten Free</td>
+      </tr>
+      <tr>
+        <td>Apr 4, 2026</td>
+        <td>Arthur Bday</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Apr 18, 2026</td>
+        <td>Mark & Lisa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>May 2, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>May 16, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>May 30, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jun 13, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jun 27, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jul 11, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jul 25, 2026</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
 
 </div>
-
-| Date         | Guest                                                                                                | Amouse Bouche        | Main                                              | Sides                                                                  | Dessert                                                                               | Dietary Curses |
-| ------------ | ---------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------- |
-| Feb 7, 2026  | Fishleys | Foccaccia and Hummus | [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]          | [[Watermelon and Sirene Snow Salad\|Watermelon and Sirene Snow Salad]], [[Mixed Rice Sour Cherry Salad\|Mixed Rice Sour Cherry Salad]] | [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]], Whipped Cream, [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]      | none           |
-| Feb 21, 2026 | Jayatilakas                                                                                          |                      | [[Chipotle Orange Pork Ribs\|Chipotle Orange Pork Ribs]]                     | [[Roast Butternut and Kale Salad\|Roast Butternut and Kale Salad]], [[Mixed Rice Sour Cherry Salad\|Mixed Rice Sour Cherry Salad]]   | [[Sour Cream Chocolate Cake\|Sour Cream Chocolate Cake]], [[Raspberry and Hibiscus Sorbet\|Raspberry and Hibiscus Sorbet]] and [[Rich Custard\|Rich Custard]] | A2 Dairy       |
-| Mar 7, 2026  | Belousaffs                                                                                           |                      | [[Smash Burgers\|Smash Burgers]] in [[Lepinja\|Lepinja]] with [[Urnebes\|Urnebes]] | [[Shopska\|Shopska]] (salad) and [[Pečen Krumpir\|Pečen Krumpir]] (potatoes)                   | [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]] and [[Tikvarnik (Macedonian Pumpkin Pie)\|Tikvarnik (Macedonian Pumpkin Pie)]] Mille Feulle     | none           |
-| Mar 21, 2026 | Harpers                                                                                              |                      | Brisket or [[Chuck 'BBQ'\|Chuck 'BBQ']]                        | [[Tangy Slaw\|Tangy Slaw]], [[Pomme Puree\|Pomme Puree]]                                        | [[Orange and Saffron Flan\|Orange and Saffron Flan]]                                                           | Gluten Free    |
-| Apr 4, 2026  | Arthur Bday                                                                                          |                      |                                                   |                                                                        |                                                                                       |                |
-| Apr 18, 2026 | Mark & Lisa                                                                                          |                      |                                                   |                                                                        |                                                                                       |                |
-| May 2, 2026  |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| May 16, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| May 30, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Jun 13, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Jun 27, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Jul 11, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Jul 25, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Aug 8, 2026  |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Aug 22, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Sep 5, 2026  |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Sep 19, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Oct 3, 2026  |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Oct 17, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Oct 31, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Nov 14, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Nov 28, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Dec 12, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
-| Dec 26, 2026 |                                                                                                      |                      |                                                   |                                                                        |                                                                                       |                |
