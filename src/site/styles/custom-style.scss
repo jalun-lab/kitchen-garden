@@ -343,3 +343,71 @@ a[href^="#/tag/"]::before {
     letter-spacing: 0.05em !important;
     white-space: nowrap !important;
 }
+
+### 2\. The CSS
+
+Add this to your stylesheet. It forces the table cells to behave like your list rows, ensuring the **Date** is right-aligned while the **Menu Link** stays left-aligned.
+
+```css
+/* Container Reset */
+.modernist-menu-grid {
+    max-width: 700px !important;
+    margin: 2rem auto !important;
+    border-top: 3px solid #000;
+}
+
+/* Strip Table Styles */
+.modernist-menu-grid table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    border: none !important;
+}
+
+.modernist-menu-grid thead {
+    display: none !important; /* Hide "Menu" and "Date" headers */
+}
+
+/* Row Styling to match List Items */
+.modernist-menu-grid tr {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-bottom: 3px solid black !important;
+    padding: 0 !important;
+    transition: background-color 0.1s ease;
+}
+
+.modernist-menu-grid tr:hover {
+    background-color: black !important;
+}
+
+/* Individual Cell Styling */
+.modernist-menu-grid td {
+    padding: 18px 15px !important;
+    border: none !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4 !important;
+}
+
+/* Link Cell (Left) */
+.modernist-menu-grid td:first-child a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.modernist-menu-grid tr:hover td:first-child a {
+    color: white !important;
+}
+
+/* Date Cell (Right) */
+.modernist-menu-grid td:last-child {
+    color: #666; /* Subtle grey date */
+    font-size: 0.85em;
+    text-align: right;
+}
+
+.modernist-menu-grid tr:hover td:last-child {
+    color: white !important;
+}
