@@ -331,3 +331,39 @@ a[href^="#/tag/"]::before {
     color: black !important;
     background-color: white !important; /* Invert tag on hover for legibility */
 }
+
+.modernist-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem; /* Gap from the last piece of content */
+    margin-bottom: 3rem;
+    padding: 0 15px; /* Side padding for mobile safety */
+}
+
+.footer-inner {
+    width: 100%;
+    max-width: 700px; /* Locked to your recipe grid width */
+    border-top: 3px solid black;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.footer-quote {
+    font-family: inherit; /* Keeps it consistent with your site body */
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.footer-reference {
+    /* Modernist dense font style */
+    font-family: "Arial Narrow", "Helvetica Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
