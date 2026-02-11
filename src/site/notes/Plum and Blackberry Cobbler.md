@@ -4,7 +4,7 @@
 
 
 * **Comments**: Adapted from a Stella Parks recipe for Blackberry and Raspberry cobbler.
-* **Serving Notes**: Serve with whipped cream of vanilla ice cream.
+* **Serving Notes**: Serve with whipped cream or [[Vanilla Gelato\|Vanilla Gelato]].
 
 ---
 
