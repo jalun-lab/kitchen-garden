@@ -34,3 +34,5 @@
 | **Unsalted Butter** (Chilled) | 165g         | **6.** Sprinkle the top with the demerara sugar.                                                                                                                    |
 | **Cold Buttermilk or Kefir**  | 165g         | **7.** Bake for 40–45 minutes. The biscuits are done when the center hits **93°C** on your instant-read thermometer.                                                |
 | **Demerara / Raw Sugar**      | 30g          | **8.** Rest for 15 minutes before serving with the [[Vanilla Gelato\|Vanilla Gelato]]                                                                                               |
+
+Serve with [[Vanilla Gelato\|Vanilla Gelato]]
