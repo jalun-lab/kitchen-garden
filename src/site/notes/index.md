@@ -37,6 +37,8 @@
     - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+    - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
+    - [[Vanilla Gelato\|Vanilla Gelato]]
 
 - main: 
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]

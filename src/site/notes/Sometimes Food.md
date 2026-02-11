@@ -10,7 +10,9 @@ All the will in world, the [substitutions]([[Every Day Food\|Every Day Food]]) w
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
 - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
+- [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
 - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
+- [[Vanilla Gelato\|Vanilla Gelato]]
 
 { .block-language-dataview}
 </div>
