@@ -15,7 +15,7 @@
 | **Ingredient**         | **Weight** | **Method**                                                                                                                     |
 | ---------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | **Frozen Zucchini**    | **150g**   | **Pre-grate** zucchini using **the Magimix** (fine disc) and **freeze** in a flat bag. **Break** the frozen sheet into chunks. |
-| **Casein Protein**     | **30g**    | **Place** frozen zucchini chunks, casein, and allulose into a large chilled bowl.                                              |
+| **Casein Protein**     | **30g**    | **Place** frozen zucchini chunks, casein, and allulose into a large chilled bowl or the bowl of the food processor.            |
 | **Allulose**           | **20g**    | **Add** a tiny splash (20ml) of cold almond milk.                                                                              |
 | **Almond Milk** (Cold) | **20ml**   | **Use the [[Equipment/Magimix\|Magimix]]**.                                                                                                       |
 | **Vanilla Extract**    | **5g**     | **Whip/blast** until completely homogenous - maybe for 5 full minutes. The ice crystals and casein will aerate into a "fluff". |
