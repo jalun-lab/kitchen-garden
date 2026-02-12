@@ -6,7 +6,7 @@ This site came about through a desire to easily share recipes with my family and
 
 If you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/).
 
-<div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%;margin-top: 15px;margin-bottom:15px"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://jakelunniss.com/" data-locale="en" async></script></div>
+<div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%;margin-top: 10vh;margin-bottom:10vh"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://jakelunniss.com/" data-locale="en" async></script></div>
 
 <div class="homepage-categories">
   <a href="/every-day-food" class="category-item">
