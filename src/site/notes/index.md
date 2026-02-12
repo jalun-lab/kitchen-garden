@@ -2,9 +2,13 @@
 {"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
 ---
 
-This site came about through a desire to easily share recipes with my family and dinner guests. I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (and not just because my mother can't cook a damn and has never worn an apron in her life).
+This wee little digital garden came about through a desire to easily share recipes with my family and friends. 
 
-If you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/).
+I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (and not just because my mother can't cook a damn and has never worn an apron in her life).
+
+It's not terribly well organised and there are definitely mistakes. If you find a broken link, let me know!
+
+While you're here, if you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/) or subscribe below:
 
 <div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%;margin-top: 10vh;margin-bottom:10vh"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://jakelunniss.com/" data-locale="en" async></script></div>
 
