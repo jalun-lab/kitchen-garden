@@ -3,6 +3,7 @@
 ---
 
 This site came about through a desire to easily share recipes with my family and dinner guests. I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (my mother can't cook a damn and has never worn an apron in her life).
+If you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/).
 
 <div class="homepage-categories">
   <a href="/every-day-food" class="category-item">
