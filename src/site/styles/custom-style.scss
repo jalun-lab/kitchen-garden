@@ -367,3 +367,31 @@ a[href^="#/tag/"]::before {
     color: black;
     margin: 0;
 }
+
+.top-return-link {
+    width: 100%;
+    max-width: 700px; /* Aligns with your grid/footer */
+    margin: 10px auto 0 auto; /* Centers the container, link stays left */
+    padding: 0 15px; /* Mobile safety */
+}
+
+.top-return-link a {
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: opacity 0.2s ease;
+}
+
+.top-return-link a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/* Ensure the header below it doesn't have too much gap */
+header {
+    margin-top: 10px !important;
+}
