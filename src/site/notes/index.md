@@ -10,21 +10,21 @@ If you're interested in my newsletter about the confluence of woodworking, garde
 
 <div class="homepage-categories">
   <a href="/every-day-food" class="category-item">
-    <img src="/img/everydayfood.jpg" alt="everydayeating">
+    <img src="/recipes/img/everydayfood.jpg" alt="everydayeating">
     <div class="category-title">Every Day Food</div>
   </a>
 
   <a href="/sometimes-food" class="category-item">
-    <img src="/img/sometimesfood.jpg" alt="Sometimesfood">
+    <img src="/recipes/img/sometimesfood.jpg" alt="Sometimesfood">
     <div class="category-title">Sometimes Food</div>
   </a>
 
 <a href="/saturday-menus" class="category-item">
-    <img src="/img/saturdaymenu.jpg" alt="dinnerpartymenus">
+    <img src="/recipes/img/saturdaymenu.jpg" alt="dinnerpartymenus">
     <div class="category-title">Saturday Menus</div>
   </a>
 <a href="/batch-cooking" class="category-item">
-    <img src="/img/batchcooking.jpg" alt="batchcooking">
+    <img src="/recipes/img/batchcooking.jpg" alt="batchcooking">
     <div class="category-title">Batch Cooking</div>
   </a>
 </div>
@@ -41,10 +41,10 @@ If you're interested in my newsletter about the confluence of woodworking, garde
 - dessert: 
     - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
     - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
-    - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
-    - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
     - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
+    - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]
+    - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
 
 - main: 
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
