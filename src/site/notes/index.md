@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
 ---
 
-This site came about through a desire to easily share recipes with my family and dinner guests. I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (my mother can't cook a damn and has never worn an apron in her life).
+This site came about through a desire to easily share recipes with my family and dinner guests. I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (and not just because my mother can't cook a damn and has never worn an apron in her life).
 
 If you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/).
 
