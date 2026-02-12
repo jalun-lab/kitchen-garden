@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/blueberry-and-brandy-clafoutis/","tags":["baked","dessert","sometimes"]}
 ---
 
-![Pasted image 20260208010508.png](/img/user/Pasted%20image%2020260208010508.png)
-
 * **Comments**: First one had way too many blueberries in but was still pretty sensational. Dropped from 600g to 450g. I still want to cram those suckers in there, but a slightly higher batter to berry ratio might be nice.
 * **Serving Notes**: Serve from the pan dusted with icing sugar and whipped cream.
 
@@ -12,13 +10,13 @@
 
 ### Ingredients and Method
 
-|  **Ingredients**                                             | **Method**                                                                                                                                      |
-| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 5 large eggs / 150g Granulated sugar         | **1. Friday:** Blend eggs, sugar, salt, flour, milk, cream, vanilla, and **Brandy** in **the Magimix**. Fridge with cling wrap.                 |
-| ¾ tsp Fine sea salt / 175g All-purpose flour | **2. Saturday (13:00):** Preheat **the 26cm Lodge skillet** in a 180°C oven. Place the pan on a lit burner on medium. Butter/sugar the hot pan. |
-| 375ml Whole milk / 150ml Heavy cream         | **3. Base Layer:** Pour 5mm of batter to set the bottom.                                                                                        |
-| 450g Fresh blueberries                       | **4. Bake:** Add blueberries and remaining batter. Bake for 35–45 minutes until puffed and set. Middle should reach 80C on thermometer.         |
-| 2 tsp Vanilla extract / 45ml Brandy          | **5. Serve:** Dust with icing sugar. Serve warm from the pan.                                                                                   |
+| **Ingredients**                              | **Method**                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 5 large eggs / 150g Granulated sugar         | **1.** Blend eggs, sugar, salt, flour, milk, cream, vanilla, and Brandy in the usual pancake batter manner.                                                                                                                                                                                                                                            |
+| ¾ tsp Fine sea salt / 175g All-purpose flour | **2. ** Preheat a 26cm Lodge skillet** or similar sized pan in a 180°C oven. Place the pan on a lit burner on medium. Butter the hot pan.                                                                                                                                                                                                              |
+| 375ml Whole milk / 150ml Heavy cream         | **3.** Pour 5mm of batter to set the bottom.                                                                                                                                                                                                                                                                                                           |
+| 450g Fresh blueberries                       | **4.** While that layer is still on the heat add the blueberries followed by the remaining batter. Bake for 35–45 minutes until puffed and set. Middle should have a slight wobble or be 82C on an instant read thermometer. The batter should be golden brown. The blueberries will rise to the top and should leave a beautifully set layer of cake. |
+| 2 tsp Vanilla extract / 45ml Brandy          | **5. Serve:** Dust with icing sugar. Serve warm from the pan.                                                                                                                                                                                                                                                                                          |
 
 
 --- 
