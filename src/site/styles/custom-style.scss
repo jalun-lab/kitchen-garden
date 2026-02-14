@@ -1,397 +1,680 @@
-/* 1. UI RESET & GLOBAL WIDTH */
-// .dg-nav, .sidebar-left, .search-button, .breadcrumb, header:not(.grimgrains-header) {
-//     display: none !important;
-// }
+/* ============================================================
+   THE HEAVY LIFE — RECIPES DIGITAL GARDEN
+   Matching the Ghost theme: linen, wine, Cormorant Garamond
+   ============================================================ */
+
+/* ── FONTS ── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lexend:wght@300;400;500&family=Azeret+Mono:wght@300;400&display=swap');
+
+/* ── VARIABLES ── */
+:root {
+  --linen: #f7f3ed;
+  --cream: #ede7dc;
+  --warm: #e2d8ca;
+  --clay: #c4b5a2;
+  --timber: #8a7a66;
+  --earth: #5c5044;
+  --charcoal: #3a342d;
+  --night: #2a2420;
+  --wine: #7a3b3b;
+  --wine-light: #944a4a;
+  --honey: #c49a5c;
+  --heading: 'Cormorant Garamond', Georgia, serif;
+  --body: 'Lexend', -apple-system, sans-serif;
+  --mono: 'Azeret Mono', monospace;
+}
+
+
+/* ============================================================
+   GLOBAL RESET & OBSIDIAN OVERRIDES
+   ============================================================ */
+
+body {
+  background-color: var(--linen) !important;
+  color: var(--charcoal) !important;
+  font-family: var(--body) !important;
+  -webkit-font-smoothing: antialiased;
+  --background-primary: var(--linen) !important;
+  --background-primary-alt: var(--cream) !important;
+  --background-secondary: var(--cream) !important;
+  --text-normal: var(--earth) !important;
+  --text-muted: var(--timber) !important;
+  --text-faint: var(--clay) !important;
+  --text-accent: var(--wine) !important;
+  --text-accent-hover: var(--wine-light) !important;
+  --interactive-accent: var(--wine) !important;
+  --interactive-accent-hover: var(--wine-light) !important;
+  --background-modifier-border: var(--warm) !important;
+}
+
+.theme-dark,
+.theme-light {
+  background-color: var(--linen) !important;
+  color: var(--charcoal) !important;
+}
+
+.theme-dark .content,
+.theme-light .content {
+  background-color: transparent !important;
+}
+
+/* Hide default digital garden chrome */
+.sidebar-left,
+.search-button,
+.breadcrumb,
+.graph,
+.backlinks,
+.dg-nav {
+  display: none !important;
+}
+
+/* Hide the OLD header elements — replaced by new .site-nav */
+.top-return-link,
+.header-wrapper,
+.grimgrains-header,
+.grimgrains-nav {
+  display: none !important;
+}
+
+
+/* ============================================================
+   LAYOUT — 700px centred column
+   ============================================================ */
 
 #main, .content, .dg-content-container, .modernist-recipe-grid {
-    max-width: 700px !important;
-    margin: 0 auto !important;
-    padding: 20px;
-    background-color: white;
+  max-width: 700px !important;
+  margin: 0 auto !important;
+  padding: 20px 1.5rem !important;
+  background-color: transparent !important;
 }
 
-/* 2. HEADER & NAVIGATION */
-.header-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center; /* This centers the column on the screen */
-    background-color: #fff;
+
+/* ============================================================
+   NAVIGATION — matches Ghost theme exactly
+   ============================================================ */
+
+.site-nav {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.grimgrains-header {
-    width: 100%;
-    max-width: 700px;
-    padding: 40px 20px 0 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Logo and Nav stay left-aligned within the 700px */
+.site-nav-brand {
+  font-family: var(--heading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--charcoal) !important;
+  text-decoration: none !important;
 }
 
-/* Logo box - restored left alignment */
-.placeholder-logo, .site-name, .navbar-brand {
-    display: inline-block !important;
-    width: 120px; 
-    height: 120px;
-    background-image: url('/recipes/img/fagor_logo2.jpg') !important; 
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: left center !important; 
-    text-indent: -9999px !important;
-    overflow: hidden !important;
-    margin-bottom: 25px;
-    border: none !important;
+.site-nav-brand em {
+  font-style: italic;
+  color: var(--wine);
 }
 
-.grimgrains-nav {
-    width: 100%;
-    border-bottom: 2px solid #000;
-    margin-bottom: 20px;
+.site-nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none !important;
+  align-items: baseline;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.nav-links {
-    display: flex;
-    gap: 30px; /* Restored original spacing */
+.site-nav-links li {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  display: inline !important;
 }
 
-.nav-item {
-    text-decoration: none !important;
-    color: #000 !important;
-    font-weight: 800 !important; /* Force heavy weight */
-    font-size: 0.9rem;
-    font-family: 'JetBrains Mono', monospace; /* Restored technical font */
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-    position: relative;
-    top: 2px;
+.site-nav-links a {
+  font-family: var(--body) !important;
+  font-size: 0.68rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  color: var(--timber) !important;
+  text-decoration: none !important;
+  transition: color 0.2s;
 }
 
-.nav-item:hover, .nav-item.active {
-    border-bottom: 5px solid #000;
+.site-nav-links a:hover {
+  color: var(--wine) !important;
 }
-/* 3. HOMEPAGE CATEGORY GRID (2-COLUMN) */
+
+.site-nav-back {
+  color: var(--clay) !important;
+}
+
+.site-nav-back:hover {
+  color: var(--wine) !important;
+}
+
+
+/* ============================================================
+   PAGE TITLES
+   ============================================================ */
+
+.notepage h1,
+h1.content-title,
+.markdown-rendered h1,
+.content > header h1 {
+  display: block !important;
+  visibility: visible !important;
+  color: var(--charcoal) !important;
+  font-family: var(--heading) !important;
+  font-weight: 300 !important;
+  text-transform: none !important;
+  font-size: clamp(2rem, 5vw, 3rem) !important;
+  margin-bottom: 0.75rem !important;
+  border-bottom: 1px solid var(--warm) !important;
+  padding-bottom: 0.75rem !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.015em !important;
+}
+
+
+/* ============================================================
+   CONTENT TYPOGRAPHY
+   ============================================================ */
+
+.content p,
+.markdown-rendered p {
+  font-family: var(--body) !important;
+  font-size: 0.92rem !important;
+  font-weight: 300 !important;
+  line-height: 1.85 !important;
+  color: var(--earth) !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.content h2,
+.markdown-rendered h2 {
+  font-family: var(--heading) !important;
+  font-size: 1.6rem !important;
+  font-weight: 400 !important;
+  color: var(--charcoal) !important;
+  margin: 2.5rem 0 1rem !important;
+  line-height: 1.2 !important;
+  text-transform: none !important;
+  border-bottom: none !important;
+  letter-spacing: normal !important;
+}
+
+.content h3,
+.markdown-rendered h3 {
+  font-family: var(--heading) !important;
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  color: var(--charcoal) !important;
+  margin: 2rem 0 0.75rem !important;
+  line-height: 1.25 !important;
+  text-transform: none !important;
+}
+
+.content h4,
+.markdown-rendered h4 {
+  font-family: var(--heading) !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  color: var(--charcoal) !important;
+  margin: 1.5rem 0 0.5rem !important;
+}
+
+.content a:not(.tag):not(.site-nav-brand):not(.category-item),
+.markdown-rendered a:not(.tag):not(.site-nav-brand):not(.category-item) {
+  color: var(--wine) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+
+.content a:not(.tag):not(.site-nav-brand):not(.category-item):hover,
+.markdown-rendered a:not(.tag):not(.site-nav-brand):not(.category-item):hover {
+  color: var(--wine-light) !important;
+}
+
+/* Undo underline on nav links (specificity override) */
+.site-nav a,
+.site-nav-links a {
+  text-decoration: none !important;
+}
+
+.content blockquote,
+.markdown-rendered blockquote {
+  border-left: 2px solid var(--wine) !important;
+  padding-left: 1.5rem !important;
+  margin: 2rem 0 !important;
+  background: transparent !important;
+}
+
+.content blockquote p,
+.markdown-rendered blockquote p {
+  font-family: var(--heading) !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  line-height: 1.6 !important;
+  color: var(--charcoal) !important;
+}
+
+.content hr,
+.markdown-rendered hr {
+  border: none !important;
+  height: 1px !important;
+  background: var(--warm) !important;
+  margin: 3rem 0 !important;
+}
+
+b, strong {
+  font-weight: 500 !important;
+  color: var(--charcoal) !important;
+}
+
+/* Lists in prose */
+.content ul:not(.site-nav-links),
+.content ol,
+.markdown-rendered ul:not(.site-nav-links),
+.markdown-rendered ol {
+  padding-left: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.content li:not(.site-nav-links li),
+.markdown-rendered li:not(.site-nav-links li) {
+  font-family: var(--body) !important;
+  font-size: 0.92rem !important;
+  font-weight: 300 !important;
+  line-height: 1.85 !important;
+  color: var(--earth) !important;
+  margin-bottom: 0.4rem !important;
+}
+
+
+/* ============================================================
+   TAGS
+   ============================================================ */
+
+.notepage a.tag,
+.markdown-rendered a.tag,
+a[href^="#/tag/"],
+.header-tags a.tag {
+  background-color: transparent !important;
+  color: var(--timber) !important;
+  padding: 0.25rem 0.6rem !important;
+  font-family: var(--mono) !important;
+  font-weight: 300 !important;
+  text-transform: lowercase !important;
+  font-size: 0.6rem !important;
+  letter-spacing: 0.06em !important;
+  text-decoration: none !important;
+  margin-right: 0.35rem !important;
+  display: inline-block !important;
+  margin-bottom: 1rem !important;
+  border: 1px solid var(--warm) !important;
+  border-radius: 2px !important;
+  transition: all 0.2s;
+}
+
+.notepage a.tag:hover,
+.markdown-rendered a.tag:hover,
+a[href^="#/tag/"]:hover {
+  color: var(--wine) !important;
+  border-color: var(--wine) !important;
+}
+
+
+/* ============================================================
+   HOMEPAGE CATEGORY GRID
+   ============================================================ */
+
 .homepage-categories {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr; 
-    gap: 0px; 
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    margin: 2rem 0;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem !important;
+  border: none !important;
+  margin: 2.5rem 0 !important;
 }
 
 .category-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    text-decoration: none !important;
-    background-color: white;
-    transition: background-color 0.1s ease;
-}
-
-.category-item img {
-    width: 150px !important;
-    height: 150px !important;
-    object-fit: contain;
-    margin-bottom: 15px;
-    filter: grayscale(100%) contrast(1.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem !important;
+  border: 1px solid var(--warm) !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  transition: all 0.2s ease;
+  border-radius: 2px;
 }
 
 .category-item:hover {
-    background-color: black !important;
+  background-color: var(--cream) !important;
+  border-color: var(--clay) !important;
 }
 
-.category-item:hover .category-title {
-    color: white !important;
+.category-item img {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  filter: grayscale(30%) contrast(1);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.category-item:hover img {
+  filter: grayscale(0%) contrast(1);
+  opacity: 1;
 }
 
 .category-title {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
-    font-size: 0.9rem;
+  font-family: var(--heading) !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  color: var(--charcoal) !important;
+  font-size: 1.1rem !important;
 }
 
-/* 4. MODERNIST RECIPE LIST (ROWS) - FINAL WRAP FIX */
+.category-item:hover .category-title {
+  color: var(--wine) !important;
+}
+
+
+/* ============================================================
+   RECIPE LIST (ROWS)
+   ============================================================ */
+
 .modernist-recipe-grid {
-    max-width: 700px !important;
-    margin: 2rem auto !important;
-    border-top: 3px solid black;
-    padding: 0 !important;
+  max-width: 700px !important;
+  margin: 2rem auto !important;
+  border-top: 1px solid var(--warm) !important;
+  padding: 0 !important;
 }
 
 .modernist-recipe-grid ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .modernist-recipe-grid li {
-    display: flex !important;
-    width: 100% !important;
-    border-bottom: 3px solid black; /* Move border to LI for stability */
-    padding: 0 !important;
-    margin: 0 !important;
+  display: flex !important;
+  width: 100% !important;
+  border-bottom: 1px solid var(--warm) !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .modernist-recipe-grid li a.internal-link {
-    /* Critical Wrapping Logic */
-    display: block !important;
-    flex: 1 !important;
-    width: 100% !important;
-    white-space: normal !important; 
-    word-break: break-word !important;
-    overflow-wrap: break-word !important;
-    
-    /* Aesthetics */
-    padding: 18px 15px !important;
-    text-decoration: none !important;
-    color: black !important;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.4 !important;
-    transition: background-color 0.1s ease;
+  display: block !important;
+  flex: 1 !important;
+  width: 100% !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  padding: 1rem 0.5rem !important;
+  text-decoration: none !important;
+  color: var(--charcoal) !important;
+  font-family: var(--heading) !important;
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  text-transform: none !important;
+  line-height: 1.3 !important;
+  transition: all 0.2s ease;
 }
 
 .modernist-recipe-grid li a.internal-link:hover {
-    background-color: black !important;
-    color: white !important;
+  background-color: transparent !important;
+  color: var(--wine) !important;
+  padding-left: 0.75rem !important;
 }
 
-/* 4a. TARGET THE HEADERS (The Group Names) */
+/* Category headers */
 .modernist-recipe-grid li p {
-    background-color: black !important;
-    color: white !important;
-    margin: 0 !important;
-    padding: 12px 15px !important; /* Adjusted for visual weight balance with links */
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.1em !important; /* Professional kerning */
-    line-height: 1.4 !important;
-    text-align: left !important;
-    width: 100% !important;
-    display: block !important;
+  background-color: transparent !important;
+  color: var(--wine) !important;
+  margin: 0 !important;
+  padding: 0.75rem 0.5rem 0.5rem !important;
+  font-family: var(--heading) !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
+  width: 100% !important;
+  display: block !important;
 }
 
-/* 4b. REMOVE INDENTATION FROM NESTED LISTS */
+/* Nested list reset */
 .modernist-recipe-grid ul ul {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    width: 100% !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  width: 100% !important;
 }
 
-/* 4c. ENSURE PARENT LI DOESN'T ADD WEIRD SPACING */
 .modernist-recipe-grid > ul > li {
-    display: block !important; /* Change from flex to block for vertical stacking */
-    border-bottom: none !important; /* Remove border from the header-container li */
+  display: block !important;
+  border-bottom: none !important;
 }
 
-/* 4d. ALIGN LIST ITEMS TO THE ABSOLUTE LEFT */
 .modernist-recipe-grid li a.internal-link {
-    padding-left: 15px !important; /* Matches the header padding */
-    border-bottom: 3px solid black !important; /* Re-apply border to the actual links */
+  padding-left: 0.5rem !important;
+  border-bottom: 1px solid var(--warm) !important;
 }
 
-/* 4e. CLEAN UP EXTRA MARGINS FROM PARAGRAPHS */
 .modernist-recipe-grid p {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 }
 
-/* 5. GLOBAL TYPOGRAPHY & MOBILE */
-b, strong {
-    font-weight: 800 !important;
-    color: #000 !important;
-}
-
-@media (max-width: 600px) {
-    .homepage-categories {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* 6. FORCE THE TITLE TO BE VISIBLE AND BOLD */
-.notepage h1, 
-h1.content-title,
-.markdown-rendered h1 {
-    display: block !important;
-    visibility: visible !important;
-    color: black !important;
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: 900 !important;
-    text-transform: uppercase !important;
-    font-size: 2.5rem !important;
-    margin-bottom: 0.5rem !important;
-    border-bottom: 5px solid black !important;
-    padding-bottom: 10px !important;
-    line-height: 1.1 !important;
-}
-
-/* 7. STYLE THE TAGS (Currently appearing as #hashtags) */
-/* This targets the specific way they appear in your rendered HTML */
-.notepage a.tag, 
-.markdown-rendered a.tag,
-a[href^="#/tag/"] {
-    background-color: black !important;
-    color: white !important;
-    padding: 4px 10px !important;
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    font-size: 0.8rem !important;
-    letter-spacing: 0.1em !important;
-    text-decoration: none !important;
-    margin-right: 5px !important;
-    display: inline-block !important;
-    margin-bottom: 2rem !important;
-}
-
-/* Remove the # from the front of the tags for the modernist look */
-.notepage a.tag::before,
-a[href^="#/tag/"]::before {
-    content: "" !important;
-}
-
-// /* 8. Homepage inline tags */
-// .tag-inline {
-//     font-size: 0.65em;
-//     font-weight: 800;
-//     color: #666; /* Grey so it's subtle, or use 'black' for high contrast */
-//     border: 1px solid #666;
-//     padding: 1px 4px;
-//     margin-left: 10px;
-//     vertical-align: middle;
-//     letter-spacing: 0.05em;
-//     border-radius: 2px;
-// }
-
-/* 1. RESET TABLE DEFAULTS */
+/* Table-based recipe lists */
 .modernist-recipe-grid table {
-    width: 100% !important;
-    border-collapse: collapse !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
 .modernist-recipe-grid thead {
-    display: none !important; /* Hide "Recipes" header */
+  display: none !important;
 }
 
-.modernist-recipe-grid tr, 
+.modernist-recipe-grid tr,
 .modernist-recipe-grid td {
-    display: block !important; /* Force table cells to stack like list items */
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border: none !important;
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
 }
 
-/* 2. RE-APPLY ROW STYLING */
-/* This targets the individual recipe links within the table cells */
 .modernist-recipe-grid td ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .modernist-recipe-grid td li {
-    border-bottom: 3px solid black !important;
-    display: flex !important;
-    width: 100% !important;
+  border-bottom: 1px solid var(--warm) !important;
+  display: flex !important;
+  width: 100% !important;
 }
 
 .modernist-recipe-grid td a.internal-link {
-    display: inline-flex !important; /* Changed to flex to keep tag inline */
-    align-items: center !important;
-    flex: 1 !important;
-    padding: 18px 15px !important;
-    text-decoration: none !important;
-    color: black !important;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.4 !important;
-    transition: background-color 0.1s ease;
+  display: inline-flex !important;
+  align-items: center !important;
+  flex: 1 !important;
+  padding: 1rem 0.5rem !important;
+  text-decoration: none !important;
+  color: var(--charcoal) !important;
+  font-family: var(--heading) !important;
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  text-transform: none !important;
+  line-height: 1.3 !important;
+  transition: all 0.2s ease;
 }
 
 .modernist-recipe-grid td a.internal-link:hover {
-    background-color: black !important;
-    color: white !important;
+  background-color: transparent !important;
+  color: var(--wine) !important;
 }
 
 .modernist-recipe-grid td a.internal-link:hover .tag-inline {
-    color: black !important;
-    background-color: white !important; /* Invert tag on hover for legibility */
+  color: var(--wine) !important;
+  border-color: var(--wine) !important;
+  background-color: transparent !important;
 }
 
+
+/* ============================================================
+   INLINE TAG (next to recipe names)
+   ============================================================ */
+
+.tag-inline {
+  font-family: var(--mono) !important;
+  font-size: 0.55rem !important;
+  font-weight: 300 !important;
+  color: var(--clay) !important;
+  border: 1px solid var(--warm) !important;
+  padding: 1px 6px !important;
+  margin-left: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  border-radius: 2px;
+  background: transparent !important;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
 .modernist-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem; /* Gap from the last piece of content */
-    margin-bottom: 3rem;
-    padding: 0 15px; /* Side padding for mobile safety */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  padding: 0 1.5rem;
 }
 
 .footer-inner {
-    width: 100%;
-    max-width: 700px; /* Locked to your recipe grid width */
-    border-top: 5px solid black;
-    padding-top: 1.5rem;
-    text-align: center;
+  width: 100%;
+  max-width: 700px;
+  border-top: 1px solid var(--warm);
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 .footer-quote {
-    font-family: inherit; /* Keeps it consistent with your site body */
-    font-size: 1.05rem;
-    line-height: 1.4;
-    color: black;
-    margin-bottom: 0.5rem;
+  font-family: var(--heading) !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--timber) !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .footer-reference {
-    /* Modernist dense font style */
-    font-family: "Arial", "Helvetica", sans-serif;
-    font-weight: 900;
-    font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: black;
-    margin: 0;
+  font-family: var(--mono) !important;
+  font-weight: 300 !important;
+  font-size: 0.6rem !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--clay) !important;
+  margin: 0 !important;
 }
 
-.top-return-link {
-    width: 100%;
-    max-width: 700px; /* Aligns with your grid/footer */
-    margin: 10px auto 0 auto; /* Centers the container, link stays left */
-    padding: 0 15px; /* Mobile safety */
+
+/* ============================================================
+   SEARCH (if enabled)
+   ============================================================ */
+
+.search-container input {
+  font-family: var(--body) !important;
+  font-size: 0.85rem !important;
+  font-weight: 300 !important;
+  border: 1px solid var(--warm) !important;
+  background: transparent !important;
+  color: var(--charcoal) !important;
+  padding: 0.6rem 1rem !important;
+  border-radius: 0 !important;
 }
 
-.top-return-link a {
-    font-family: "Arial Narrow", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    color: black;
-    text-decoration: none;
-    letter-spacing: 0.05em;
-    transition: opacity 0.2s ease;
+.search-container input::placeholder {
+  color: var(--clay) !important;
 }
 
-.top-return-link a:hover {
-    text-decoration: underline;
-    opacity: 0.7;
+.search-container input:focus {
+  border-color: var(--wine) !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-/* Ensure the header below it doesn't have too much gap */
-header {
-    margin-top: 10px !important;
+
+/* ============================================================
+   IMAGES IN CONTENT
+   ============================================================ */
+
+.content img:not(.site-nav img),
+.markdown-rendered img:not(.site-nav img) {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem 0;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 600px) {
+  .homepage-categories {
+    grid-template-columns: 1fr !important;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .site-nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .site-nav-links a {
+    font-size: 0.62rem !important;
+  }
+}
+
+
+/* ============================================================
+   SUPPRESS DEFAULT DG PLUGIN STYLES
+   ============================================================ */
+
+.navbar:not(.site-nav),
+.navbar:not(.site-nav) a {
+  font-family: var(--body) !important;
+  color: var(--timber) !important;
+  background: transparent !important;
+}
+
+header:not(.site-nav) {
+  margin-top: 0 !important;
 }
