@@ -2,11 +2,11 @@
 {"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
 ---
 
-This wee little digital garden came about through a desire to easily share recipes with my family and friends. 
+A working collection of what we cook and how we cook it. Standardised formats, honest measurements, and no preamble — just the recipe.
 
-I also really, really hate the way recipe websites are built these days. So here you'll find a repository of my recipes without ads and obese web design. There are no privacy violating trackers, no 20MB of ads per page, and no 3000 word essays about learning to cook bechamel at my mother's apron strings (and not just because my mother can't cook a damn and has never worn an apron in her life).
+Most of what's here is built around a few constraints: high protein, low sugar, made from the garden where possible, and built to batch. The tools are modernist — chamber vac, dehydrator, sous vide — but the intent is old. Feed the household well. Waste nothing. Make it repeatable.
 
-It's not terribly well organised and there are definitely mistakes. If you find a broken link, let me know!
+The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and the splurges, which exist because a life without [clafoutis]([[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]) isn't worth defending.
 
 While you're here, if you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/) or subscribe below:
 
