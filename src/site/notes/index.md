@@ -8,10 +8,6 @@ Most of what's here is built around a few constraints: high protein, low sugar, 
 
 The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and the splurges, which exist because a life without [clafoutis]([[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]) isn't worth defending.
 
-While you're here, if you're interested in my newsletter about the confluence of woodworking, gardening and Christian faith you can [check that out here](https://jakelunniss.com/) or subscribe below:
-
-<div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%;margin-top: 10vh;margin-bottom:10vh"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://jakelunniss.com/" data-locale="en" async></script></div>
-
 <div class="homepage-categories">
   <a href="/every-day-food" class="category-item">
     <img src="/recipes/img/everydayfood.jpg" alt="everydayeating">
