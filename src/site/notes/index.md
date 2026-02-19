@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"Lunniss Family Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","title":"The Heavy Life Recipes | Batch Cooking, High Protein Desserts & Splurge Recipes","tags":["gardenEntry"]}
 ---
 
 A working collection of what we cook and how we cook it. Standardised formats, honest measurements, and no preamble — just the recipe.
@@ -39,12 +39,16 @@ The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and 
     - [[Tomato Base Sauce\|Tomato Base Sauce]]
 
 - dessert: 
+    - [[Baked Pineapple\|Baked Pineapple]]
     - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
     - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
     - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+    - [[Chocolate and Raspberry Clafoutis\|Chocolate and Raspberry Clafoutis]]
+    - [[Sabayon\|Sabayon]]
+    - [[Chocolate Hotpot\|Chocolate Hotpot]]
 
 - main: 
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]

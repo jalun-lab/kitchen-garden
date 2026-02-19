@@ -36,6 +36,18 @@
 | **Orange Zest / Ginger** | 22g / 30g    |                                                                                                                                     |
 
 #### Chipotle Orange Glaze
+|**Ingredient**|**Quantity**|**Method**|
+|---|---|---|
+|Orange Juice (Fresh)|500 ml|Combine orange juice, brown sugar, and adobo sauce in a saucepan. Simmer over medium-high heat.|
+|Dark Brown Sugar|150 g||
+|Adobo Sauce (from the tin)|60 g||
+|Chipotle Chiles in Adobo|4 units|Use **the Bamix gastro** with the multipurpose blade to puree the chiles and garlic into the liquid until completely smooth.|
+|Garlic (Fresh)|4 cloves||
+|Apple Cider Vinegar|30 ml|Add the vinegar, salt, and cumin. Reduce heat to medium.|
+|Fine Sea Salt|8 g||
+|Ground Cumin|2 g||
+|||**Reduction:** Simmer until the volume is reduced by roughly 70%. The glaze should be very thick and move like warm honey.|
+|Cold Unsalted Butter|50 g|Remove from heat and emulsify the cold butter using **the Bamix**. This creates the fat-bridge needed to keep the glaze from "breaking" under the high heat of the Searzall.|
 
 
 </div></div>
@@ -95,7 +107,7 @@
 ### Dessert
 
 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/chocolate-and-raspberry-clafoutis/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -107,18 +119,22 @@
 ---
 
 ### Ingredients and Method
-| **Ingredient**          | **Mass (g)** | **Method**                                                                                                                 |
-| ----------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| **Unsalted Butter**     | 255g         | **1.** Preheat oven to 175°C. Grease **the Mondo round cake pan** and line the base with parchment.                        |
-| **Hot Brewed Coffee**   | 180g         | **2.** Melt butter in a saucepan. Whisk in coffee and cocoa until smooth. Remove from heat.                                |
-| **Dutch-Process Cocoa** | 55g          | **3.** Using **the Sunbeam hand beater**, whisk in the sugar.                                                              |
-| **Granulated Sugar**    | 450g         | **4.** Add eggs, A2 sour cream, and vanilla. Whisk until the batter is glossy and fully emulsified.                        |
-| **Large Eggs**          | 150g (3 ea)  | **5.** Measure flour, baking soda, and salt on **the micro scales**. Sift into the wet mixture.                            |
-| **Sour Cream**          | 270g         | **6.** Fold with the beater on low speed until just combined.                                                              |
-| **Vanilla Extract**     | 12g          | **7.** Pour into the pan. Bake for **55–65 minutes**. The increased depth requires a longer bake than the original recipe. |
-| **All-Purpose Flour**   | 285g         | **8.** Cool in the pan for 20 minutes before inverting.                                                                    |
-| **Baking Soda**         | 8g           | ^                                                                                                                          |
-| **Fine Sea Salt**       | 3g           | ^                                                                                                                          |
+|**Ingredient**|**Quantity**|**Method**|
+|---|---|---|
+|Unsalted Butter|25 g|Place **the 10" cast iron pan** in the oven and preheat to 180°C. Once hot, add the butter and swirl to coat the base and sides.|
+|Fresh Raspberries|300 g|Spread the raspberries and chopped chocolate across the bottom of the hot pan.|
+|Dark Chocolate (70%), chopped|60 g||
+|Large Eggs|3 units|Using **the Sunbeam hand beater** or **the Magimix**, whisk the eggs, sugar, and salt until pale and frothy.|
+|Caster Sugar|100 g||
+|Sea Salt|1 pinch||
+|Plain Flour|50 g|Sift the flour and cocoa powder together. Whisk into the egg mixture until smooth.|
+|Cocoa Powder (Dutch Processed)|15 g||
+|Whole Milk|250 ml|Slowly whisk in the milk and the brandy.|
+|Brandy|1 tbsp||
+|Vanilla Extract|1 tsp||
+|||Pour the batter over the fruit and chocolate.|
+|||Bake for 35–45 minutes until the edges are puffed and the center is set with a slight wobble.|
+|||Allow to cool in the pan for 15 minutes. Serve warm.|
 
 </div></div>
  with 
@@ -135,15 +151,44 @@
 ---
 
 ### Ingredients and Method
+| **Ingredient**         | **Quantity** | **Method**                                                                                                                                                                                                                              |
+| ---------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Water                  | 235 g        | In a small saucepan, combine the water, sugar, and allulose. Bring to a boil over medium-high heat, stirring until the sugars are completely dissolved.                                                                                 |
+| Granulated Sugar       | 120 g        |                                                                                                                                                                                                                                         |
+| Allulose               | 80 g         |                                                                                                                                                                                                                                         |
+| Dried Hibiscus Flowers | 15 g         | Remove the syrup from the heat. Stir in the hibiscus flowers, cover the pan, and let steep for 15 minutes.                                                                                                                              |
+| Fresh Raspberries      | 340 g        | While the syrup steeps, process the raspberries and lemon juice in **the Magimix** (metal blade) until smooth. Strain through a fine-mesh sieve to remove seeds.                                                                        |
+| Lemon Juice            | 15 g         |                                                                                                                                                                                                                                         |
+| Guar Gum               | 1 g          | Once the hibiscus syrup is strained and still warm (but not boiling), use **the Bamix gastro** to vortex the syrup. Gradually rain in the guar gum and blend for 30 seconds to fully hydrate the stabilizer.                            |
+|                        |              | Combine the stabilized hibiscus syrup with the raspberry puree. Whisk thoroughly to incorporate.                                                                                                                                        |
+|                        |              | **Chamber Vacuum Step:** Place the base in **the chamber vacuum sealer**. Run a full cycle to de-aerate. This is crucial when using gums, as it removes any micro-bubbles introduced during blending, resulting in a glass-like finish. |
+|                        |              | Chill the base in the refrigerator until it reaches 4°C.                                                                                                                                                                                |
+|                        |              | Pour the chilled base into the ice cream maker and churn until it reaches a firm "ribbon" stage.                                                                                                                                        |
+|                        |              | Transfer to a chilled container. Thanks to the allulose and guar gum, this sorbet will remain scoopable directly from the freezer without needing to "tempered" on the bench.                                                           |
 
 </div></div>
  and 
 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/sabayon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 
+
+---
+
+### Ingredients and Method
+|**Ingredient**|**Quantity**|**Method**|
+|---|---|---|
+|Large Egg Yolks|4 units|Set a saucepan with 3cm of water to a gentle simmer. Ensure the mixing bowl fits the pan without touching the water.|
+|Caster Sugar|60 g|In the bowl, whisk the yolks, sugar, and salt with **the Sunbeam hand beater** until pale and reaching the "ribbon" stage.|
+|Sea Salt|1 pinch||
+|Sherry (Dry or Medium)|80 ml|Whisk in the Sherry and the vanilla bean paste.|
+|Vanilla Bean Paste|1.5 tsp||
+|||Place the bowl over the simmering water. Whisk constantly on medium-high speed with **the Sunbeam hand beater**.|
+|||Whisk for 5–7 minutes. The mixture must triple in volume, becoming thick, pale, and remarkably foamy. It should be hot to the touch (approx. 70°C).|
+|||Once the foam is stable and holds its shape when the beater is lifted, remove from the heat immediately.|
+|||Spoon the warm sabayon over the **Chocolate and Raspberry Clafoutis** and serve.|
 
 </div></div>
 
