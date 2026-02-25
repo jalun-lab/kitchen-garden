@@ -27,7 +27,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>Kosher salt</td>
+<td>Sea salt</td>
 <td>4g</td>
 <td></td>
 </tr>
