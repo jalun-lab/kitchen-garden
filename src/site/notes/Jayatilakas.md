@@ -106,38 +106,31 @@
 
 ### Dessert
 
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/chocolate-and-raspberry-clafoutis/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
+!
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/chocolate-hotpot/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
-* **Comments**: 
-* **Serving Notes**: 
 
 ---
 
 ### Ingredients and Method
-|**Ingredient**|**Quantity**|**Method**|
-|---|---|---|
-|Unsalted Butter|25 g|Place **the 10" cast iron pan** in the oven and preheat to 180°C. Once hot, add the butter and swirl to coat the base and sides.|
-|Fresh Raspberries|300 g|Spread the raspberries and chopped chocolate across the bottom of the hot pan.|
-|Dark Chocolate (70%), chopped|60 g||
-|Large Eggs|3 units|Using **the Sunbeam hand beater** or **the Magimix**, whisk the eggs, sugar, and salt until pale and frothy.|
-|Caster Sugar|100 g||
-|Sea Salt|1 pinch||
-|Plain Flour|50 g|Sift the flour and cocoa powder together. Whisk into the egg mixture until smooth.|
-|Cocoa Powder (Dutch Processed)|15 g||
-|Whole Milk|250 ml|Slowly whisk in the milk and the brandy.|
-|Brandy|1 tbsp||
-|Vanilla Extract|1 tsp||
-|||Pour the batter over the fruit and chocolate.|
-|||Bake for 35–45 minutes until the edges are puffed and the center is set with a slight wobble.|
-|||Allow to cool in the pan for 15 minutes. Serve warm.|
+| **Ingredients**      | **Quantity** | **Method**                                                                                                                                                                                                                                                 |
+| -------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dark chocolate (70%) | 510g         | Preheat the oven to **180°C**. Lowering the temperature slightly for this larger volume is critical to prevent the outside from becoming bitter and dry before the heat reaches the center.                                                                |
+| Unsalted butter      | 510g         | Grease **the Mondo round cake pan** heavily with butter, then dust the sides with cocoa powder.                                                                                                                                                            |
+| Whole eggs           | 8            | Melt the chocolate and butter together. Stir until perfectly smooth. Allow it to cool until it is just warm to the touch (approx. **45°C**).                                                                                                               |
+| Egg yolks            | 8            |                                                                                                                                                                                                                                                            |
+| Caster sugar         | 250g         | Combine eggs, yolks, and sugar. Whisk vigorously (ideally using **the Sunbeam hand beater**) until you achieve a thick **Sabayon**—it should be pale, voluminous, and hold a heavy ribbon.                                                                 |
+| Fine sea salt        | 2g           |                                                                                                                                                                                                                                                            |
+|                      |              | Carefully fold the chocolate/butter mixture into the Sabayon in three stages. Use a large spatula and a "cutting" motion to avoid deflating the air.                                                                                                       |
+|                      |              | Pour the batter into the pan. Tap it once on the bench to settle large bubbles.                                                                                                                                                                            |
+|                      |              | Bake for **35–45 minutes**. This is a "feel" bake: start checking at 35 minutes. The edges (about 2 inches in) should be firm and slightly cracked, but the center 4 inches should still wobble like jelly.                                                |
+|                      |              | **Serving:** Let the "cake" rest in the pan for 10 minutes. It is too soft to flip; serve it directly from the pan by scooping deep portions into bowls, then topping with [ice cream]([[Vanilla Gelato\|Vanilla Gelato]]) or [sorbet]([[Raspberry and Hibiscus Sorbet\|Raspberry and Hibiscus Sorbet]]). |
+
 
 </div></div>
- with 
+with 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
@@ -165,30 +158,6 @@
 |                        |              | Chill the base in the refrigerator until it reaches 4°C.                                                                                                                                                                                |
 |                        |              | Pour the chilled base into the ice cream maker and churn until it reaches a firm "ribbon" stage.                                                                                                                                        |
 |                        |              | Transfer to a chilled container. Thanks to the allulose and guar gum, this sorbet will remain scoopable directly from the freezer without needing to "tempered" on the bench.                                                           |
-
-</div></div>
- and 
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/sabayon/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
----
-
-### Ingredients and Method
-|**Ingredient**|**Quantity**|**Method**|
-|---|---|---|
-|Large Egg Yolks|4 units|Set a saucepan with 3cm of water to a gentle simmer. Ensure the mixing bowl fits the pan without touching the water.|
-|Caster Sugar|60 g|In the bowl, whisk the yolks, sugar, and salt with **the Sunbeam hand beater** until pale and reaching the "ribbon" stage.|
-|Sea Salt|1 pinch||
-|Sherry (Dry or Medium)|80 ml|Whisk in the Sherry and the vanilla bean paste.|
-|Vanilla Bean Paste|1.5 tsp||
-|||Place the bowl over the simmering water. Whisk constantly on medium-high speed with **the Sunbeam hand beater**.|
-|||Whisk for 5–7 minutes. The mixture must triple in volume, becoming thick, pale, and remarkably foamy. It should be hot to the touch (approx. 70°C).|
-|||Once the foam is stable and holds its shape when the beater is lifted, remove from the heat immediately.|
-|||Spoon the warm sabayon over the **Chocolate and Raspberry Clafoutis** and serve.|
 
 </div></div>
 

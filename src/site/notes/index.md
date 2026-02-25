@@ -41,14 +41,16 @@ The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and 
 - dessert: 
     - [[Baked Pineapple\|Baked Pineapple]]
     - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
+    - [[Chocolate Hotpot\|Chocolate Hotpot]]
+    - [[Chocolate and Raspberry Clafoutis\|Chocolate and Raspberry Clafoutis]]
     - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
     - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
+    - [[Sabayon\|Sabayon]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
-    - [[Chocolate and Raspberry Clafoutis\|Chocolate and Raspberry Clafoutis]]
-    - [[Sabayon\|Sabayon]]
-    - [[Chocolate Hotpot\|Chocolate Hotpot]]
+    - [[Apple Pie\|Apple Pie]]
+    - [[Pecan & Sultana Ice Cream\|Pecan & Sultana Ice Cream]]
 
 - main: 
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]

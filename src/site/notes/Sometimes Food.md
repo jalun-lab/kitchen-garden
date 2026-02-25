@@ -7,6 +7,7 @@ All the will in world, the [substitutions]([[Every Day Food\|Every Day Food]]) w
 
 <div class="modernist-recipe-grid">
 
+- [[Apple Pie\|Apple Pie]]
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 - [[Chocolate and Raspberry Clafoutis\|Chocolate and Raspberry Clafoutis]]
 - [[Chocolate Hotpot\|Chocolate Hotpot]]
