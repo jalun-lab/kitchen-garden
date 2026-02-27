@@ -3,17 +3,6 @@
 ---
 
 
----
-version:
----
-* ***Tags***: #recipe #kids 
-* ***Storage*:** freeze individually on tray then bag
-* ***Comments***: This is just a zucchini slice in a muffin tin, but with the recipe changed from what's normal. Intended to max out the zucchini content so zucc is by FAR the biggest ingredient, and to minimise the oil content. Good with or without bacon. Bacon can simply be omitted, it works well without.
-### Equipment & Processing
-*none special*
-
-___
-
 | Ingredient                 | Weight       | Method                                                                                                                                                                                                               |
 | :------------------------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Zucchini (Grated)**      | 850 g        | Grate the zucchini. Toss with 1.5 tsp salt and let sit in a colander for 20 minutes. Squeeze extremely dry using a lint-free kitchen towel.                                                                          |
@@ -30,7 +19,6 @@ ___
 | **Tasty Cheese (Grated)**  | 135 g        | ^                                                                                                                                                                                                                    |
 | **Black Pepper**           | To taste     | ^                                                                                                                                                                                                                    |
 
-### 
 
 --- 
 **Revision History:**

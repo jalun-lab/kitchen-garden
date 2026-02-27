@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/raspberry-and-hibiscus-sorbet/","tags":["dessert","sometimes"]}
+{"dg-publish":true,"permalink":"/raspberry-and-hibiscus-sorbet/","tags":["dessert","sometimes","dairy-free"]}
 ---
 
 
