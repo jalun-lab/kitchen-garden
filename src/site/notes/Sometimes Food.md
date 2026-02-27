@@ -14,6 +14,7 @@ All the will in world, the [substitutions]([[Every Day Food\|Every Day Food]]) w
 - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
 - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
 - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
+- [[Raspberry and Hibiscus Sorbet\|Raspberry and Hibiscus Sorbet]]
 - [[Sabayon\|Sabayon]]
 - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
 - [[Vanilla Gelato\|Vanilla Gelato]]

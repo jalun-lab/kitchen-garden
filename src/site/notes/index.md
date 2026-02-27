@@ -47,6 +47,7 @@ The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and 
     - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
     - [[Pecan & Sultana Ice Cream\|Pecan & Sultana Ice Cream]]
     - [[Plum and Blackberry Cobbler\|Plum and Blackberry Cobbler]]
+    - [[Raspberry and Hibiscus Sorbet\|Raspberry and Hibiscus Sorbet]]
     - [[Sabayon\|Sabayon]]
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]

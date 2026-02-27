@@ -8,8 +8,8 @@ So every other Saturday in 2026 I'll host a lunch and post the menu here, along 
 
 <div class="modernist-recipe-grid">
 
-- [[Fishleys\|Fishleys]]
 - [[Jayatilakas\|Jayatilakas]]
+- [[Fishleys\|Fishleys]]
 
 { .block-language-dataview}
 </div>
