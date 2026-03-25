@@ -53,6 +53,7 @@ The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and 
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
+    - [[Chocolate Malt Tart\|Chocolate Malt Tart]]
     - [[Dark Carmelised Honey Ice Cream\|Dark Carmelised Honey Ice Cream]]
 
 - main: 

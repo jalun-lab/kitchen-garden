@@ -11,6 +11,7 @@ All the will in world, the [substitutions]([[Every Day Food\|Every Day Food]]) w
 - [[Blueberry & Brandy Clafoutis\|Blueberry & Brandy Clafoutis]]
 - [[Chocolate and Raspberry Clafoutis\|Chocolate and Raspberry Clafoutis]]
 - [[Chocolate Hotpot\|Chocolate Hotpot]]
+- [[Chocolate Malt Tart\|Chocolate Malt Tart]]
 - [[Dark Carmelised Honey Ice Cream\|Dark Carmelised Honey Ice Cream]]
 - [[Extra Orange Ricotta Gelato\|Extra Orange Ricotta Gelato]]
 - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
