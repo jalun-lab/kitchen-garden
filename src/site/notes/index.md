@@ -53,7 +53,7 @@ The exceptions are the [Saturday menus]([[Saturday Menus\|Saturday Menus]]) and 
     - [[Sour Cherry Ice Cream\|Sour Cherry Ice Cream]]
     - [[Vanilla Gelato\|Vanilla Gelato]]
     - [[Zucchini Protein Fluff\|Zucchini Protein Fluff]]
-    - [[Dark Carmelised Hoeny Ice Cream\|Dark Carmelised Hoeny Ice Cream]]
+    - [[Dark Carmelised Honey Ice Cream\|Dark Carmelised Honey Ice Cream]]
 
 - main: 
     - [[Harissa Honey Glazed Chicken Skewers\|Harissa Honey Glazed Chicken Skewers]]
