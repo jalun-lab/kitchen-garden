@@ -8,6 +8,7 @@ So every other Saturday in 2026 I'll host a lunch and post the menu here, along 
 
 <div class="modernist-recipe-grid">
 
+- [[The Harpers Run Sheet\|The Harpers Run Sheet]]
 - [[Belousoffs\|Belousoffs]]
 - [[Jayatilakas\|Jayatilakas]]
 - [[Fishleys\|Fishleys]]
